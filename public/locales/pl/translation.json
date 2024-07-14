@@ -1,0 +1,55 @@
+{
+  "layout":{
+    "navbar": {
+      "home": "Strona Główna",
+      "services": "Usługi",
+      "about": "O Nas",
+      "contact": "Kontakt"
+    }
+  },
+  "home":{
+    "herosection": {
+      "heading": "Witamy w CETI",
+      "subheading1": "Współpraca i zaufanie",
+      "subheading2": "",
+      "paragraph": "Central European Trade Integration (CETI) to zespół doświadczonych specjalistów rynku kapitałowego specjalizujących się w doradztwie inwestycyjnym i biznesowym. Naszym nadrzędnym celem jest wspólne tworzenie wartości z naszymi partnerami biznesowymi, zapewniając wsparcie eksperckie w zakresie usług doradztwa biznesowego i transakcyjnego",
+      "button": "Skontaktuj się z nami już dziś"
+    },
+    "whatwedo": {
+      "title": "Co robimy",
+      "paragraph": "Osiąganie sukcesu dzięki specjalistycznym rozwiązaniom biznesowym",
+      "box1title": "Pasujący partnerzy biznesowi",
+      "box1paragraph": "W CETI identyfikujemy i wybieramy potencjalnych partnerów, aby zapewnić udaną współpracę.",
+      "box2title": "Doradztwo transakcyjne",
+      "box2paragraph": "Zapewniamy fachowe doradztwo w zakresie transakcji, aby pomóc firmom bezpiecznie rozwijać swoją działalność.",
+      "box3title": "Konsultacja Biznesowa",
+      "box3paragraph": "Nasze usługi doradcze mają na celu pomóc Twojej firmie rozwijać się i odnosić sukcesy."
+    },
+    "cta1": {
+      "heading": "Przekształć swój biznes już dziś",
+      "paragraph": "Odkryj, jak możemy podnieść Twój biznes",
+      "button": "Odkryj nasze usługi"
+    },
+    "aboutus": {
+      "heading": "O Nas",
+      "paragraph": "Wzmacniamy globalny biznes dzięki naszej ekspertyzie",
+      "section1heading": "Nasze Wartości",
+      "section1paragraph": "Naszym celem jest przyczynianie się do rozwiązywania ważnych problemów i budowania zaufania w społeczeństwie i biznesie. Dotyczy to nie tylko 'co robimy', ale także 'jak to robimy'.",
+      "section2heading": "Zrównoważony Rozwój",
+      "section2paragraph": "Nasze zaangażowanie w zrównoważony rozwój jest kluczowe dla naszego działania. Stawiamy na praktyki biznesowe, które wspierają ochronę środowiska i promują odpowiedzialność społeczną.",
+      "section3heading": "Zasięg Globalny",
+      "section3paragraph": "Działamy na międzynarodową skalę, zapewniając naszym klientom korzyści z globalnych możliwości rynkowych.",
+      "button": "Dowiedz Się Więcej"
+    },
+    "howitworks": {
+      "heading": "Jak to działa",
+      "paragraph": "Bezproblemowe rozwiązania dla rozwoju biznesu",
+      "box1heading": "Identyfikacja potrzeb",
+      "box1paragraph": "Zaczynamy od zrozumienia potrzeb i celów Twojej firmy",
+      "box2heading": "Opracowanie strategii",
+      "box2paragraph": "Nasi eksperci opracowują dostosowaną strategię dla Twojej firmy",
+      "box3heading": "Wdrażanie rozwiązań",
+      "box3paragraph": "Pomagamy we wdrażaniu rozwiązań i osiąganiu Twoich celów"
+    }
+  }
+}
