@@ -3,7 +3,7 @@ import { IMAGES } from "../../utils";
 
 const WhatWeDo = ({ t }) => {
   return (
-    <section className="relative padding padding_top">
+    <section data-aos="fade-down" className="relative padding padding_top">
       <img
         src={IMAGES.SideDesign}
         alt=""
@@ -16,7 +16,7 @@ const WhatWeDo = ({ t }) => {
         {t("home.whatwedo.paragraph")}
       </p>
       <div  className="grid grid-cols-1 min-[900px]:grid-cols-3 gap-6">
-        <div data-aos="fade-right" className=" border-2 border-secondary text-center">
+        <div className=" border-2 border-secondary text-center">
           <img src={IMAGES.HomeBoxImg1} alt="" className="w-full" />
           <div className="mt-6 mb-9 mx-4 min-[1100px]:mx-9">
             <h4 className="mb-3 font-bold text-xl sm:text-2xl ">
@@ -40,7 +40,7 @@ const WhatWeDo = ({ t }) => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className=" border-2 border-secondary text-center">
+        <div  className=" border-2 border-secondary text-center">
           <img src={IMAGES.HomeBoxImg3} alt="" className="w-full" />
           <div className="mt-6 mb-9 mx-4 min-[1100px]:mx-9">
             <h4 className="mb-3 font-bold text-xl sm:text-2xl">
