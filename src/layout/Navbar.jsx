@@ -16,11 +16,11 @@ const[mobileView, setMobileView] = useState(false);
    
 
         <ul className='hidden md:flex space-x-8'>
-          <li><Link to={ROUTES.home}>{t('layout.navbar.home')}</Link></li>
-          <li><Link to={ROUTES.services}>{t('layout.navbar.services')}</Link></li>
-          <li><Link to={ROUTES.about}>{t('layout.navbar.about')}</Link></li>
+          <li><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
+          <li><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>
+          <li><Link to={ROUTES.about}>{t('layout.nav.about')}</Link></li>
 
-          <li><Link to={ROUTES.contact}>{t('layout.navbar.contact')}</Link></li>
+          <li><Link to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
         </ul>
         <LangSwitcher />
         <IoMdMenu className="block md:hidden text-3xl"/>

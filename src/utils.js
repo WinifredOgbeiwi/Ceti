@@ -10,7 +10,13 @@ import HeroAbout1 from "./assets/hero-about-us1.png";
 import HeroAbout2 from "./assets/hero-about-us2.png";
 import HeroAbout3 from "./assets/hero-about-us3.png";
 import HeroAboutdesign from "./assets/hero-about-sidedesign.png";
-import { IoSearchSharp } from "react-icons/io5";
+import No1 from "./assets/no1.png";
+import No2 from "./assets/no2.png";
+import No3 from "./assets/no3.png";
+import LogoWhite from "./assets/ceti-logo-white.png";
+
+import { IoSearchSharp, IoSettingsOutline } from "react-icons/io5";
+import { TbBulb } from "react-icons/tb";
 
 export const IMAGES = {
   Logo,
@@ -25,6 +31,10 @@ export const IMAGES = {
   HeroAbout2,
   HeroAbout3,
   HeroAboutdesign,
+  No1,
+  No2,
+  No3,
+  LogoWhite,
 };
 
 export const ROUTES = {
@@ -60,21 +70,24 @@ export const getHeroAboutLinks = (t) => [
 
 export const getHeroWorkItems = (t) => [
   {
+    id: 1,
     heading: t("home.howitworks.box1heading"),
-    no: "1",
+    no: No1,
     icon: IoSearchSharp,
     paragraph: t("home.howitworks.box1paragraph"),
   },
   {
+    id: 2,
     heading: t("home.howitworks.box2heading"),
-    no: "2",
-    icon: IoSearchSharp,
+    no: No2,
+    icon: IoSettingsOutline,
     paragraph: t("home.howitworks.box2paragraph"),
   },
   {
+    id: 3,
     heading: t("home.howitworks.box3heading"),
-    no: "3",
-    icon: IoSearchSharp,
+    no: No3,
+    icon: TbBulb,
     paragraph: t("home.howitworks.box3paragraph"),
   },
 ];

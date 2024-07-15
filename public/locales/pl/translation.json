@@ -1,10 +1,18 @@
 {
   "layout":{
-    "navbar": {
+    "nav": {
       "home": "Strona Główna",
       "services": "Usługi",
       "about": "O Nas",
       "contact": "Kontakt"
+    },
+    "footer": {
+      "paragraph": "CETI specjalizuje się w doradztwie inwestycyjnym i biznesowym, aby pomóc Ci osiągnąć Twoje cele. Od dopasowywania partnerów po doradztwo transakcyjne i konsulting biznesowy, jesteśmy zaangażowani w Twój sukces. Zapoznaj się z naszymi usługami, aby wspierać rozwój Twojego biznesu.",
+      "heading": "Skontaktuj się z nami",
+      "address": "ul. Żurawia 6/12, Warszawa, Polska",
+      "foot": "Wszelkie prawa zastrzeżone.",
+      "link1": "Regulamin",
+      "link2": "Polityka Prywatności"
     }
   },
   "home":{
@@ -49,7 +57,13 @@
       "box2heading": "Opracowanie strategii",
       "box2paragraph": "Nasi eksperci opracowują dostosowaną strategię dla Twojej firmy",
       "box3heading": "Wdrażanie rozwiązań",
-      "box3paragraph": "Pomagamy we wdrażaniu rozwiązań i osiąganiu Twoich celów"
+      "box3paragraph": "Pomagamy wdrażać rozwiązania i osiągać cele"
+    },
+    "cta2": {
+      "heading": "Gotowi do rozmowy",
+      "paragraph": "Porozmawiaj dziś z naszymi ekspertami",
+      "content": "Cenimy bezpośrednie relacje. Skontaktuj się z nami już dziś, aby omówić, jak możemy pomóc w rozwoju Twojego biznesu",
+      "button": "Skontaktuj się"
     }
   }
 }

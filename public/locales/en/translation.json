@@ -1,10 +1,18 @@
 {
   "layout": {
-    "navbar": {
+    "nav": {
       "home": "Home",
       "services": "Services",
       "about": "About Us",
       "contact": "Contact Us"
+    },
+    "footer":{
+      "paragraph":"CETI specialize in investment and business advisory to help you achieve your goals. From partner matching to transaction advisory and business consulting, we are committed to your success. Explore our services to support your business growth.",
+      "heading":"Get In Touch",
+      "address":"Żurawiej 6/12 st., Warsaw, Poland",
+      "foot":"All Rights Reserved.",
+      "link1":"Regulations",
+      "link2":"Privacy Policy"
     }
   },
   "home": {
@@ -30,7 +38,7 @@
       "paragraph": "Discover How We Can Elevate Your Business",
       "button": "Explore Our Services"
     },
-    "aboutus":{
+    "aboutus": {
       "heading": "About Us",
       "paragraph": "Empowering Global Business with Expertise",
       "section1heading": "Our Values",
@@ -38,18 +46,24 @@
       "section2heading": "Sustainablility",
       "section2paragraph": "Our commitment to sustainability is central to our operations. We focus on business practices that support environmental protection and promote social responsibility.",
       "section3heading": "Global Reach",
-        "section3paragraph": "We operate on an international scale, ensuring our clients benefit from global market opportunities.",
-        "button":"Learn More"
+      "section3paragraph": "We operate on an international scale, ensuring our clients benefit from global market opportunities.",
+      "button": "Learn More"
     },
-    "howitworks":{
-      "heading":"How it works",
-      "paragraph":"Seamless Solutions for Business Growth",
-      "box1heading":"Identify Needs",
-      "box1paragraph":"We begin by understanding your business needs and goals",
-      "box2heading":"Develop Strategy",
-      "box2paragraph":"Our experts develop a tailored strategy for your business",
-      "box3heading":"Implement Solutions",
-      "box3paragraph":"We assist you in implementing the solutions and achieving your objectives"
+    "howitworks": {
+      "heading": "How it works",
+      "paragraph": "Seamless Solutions for Business Growth",
+      "box1heading": "Identify Needs",
+      "box1paragraph": "We begin by understanding your business needs and goals",
+      "box2heading": "Develop Strategy",
+      "box2paragraph": "Our experts develop a tailored strategy for your business",
+      "box3heading": "Implement Solutions",
+      "box3paragraph": "We help you implement solutions and achieve your goals."
+    },
+    "cta2": {
+      "heading": "Ready to talk",
+      "paragraph": "Talk to our experts today",
+      "content": "We value direct relationships. Contact us today to discuss how we can help your business grow",
+      "button": "Get in Touch"
     }
   }
 }
