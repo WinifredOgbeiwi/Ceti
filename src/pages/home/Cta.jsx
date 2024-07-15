@@ -4,8 +4,8 @@ import { IMAGES } from "../../utils";
 
 const Cta = ({ t }) => {
   return (
-    <section className="px-5 sm:px-[72px] relative mt-12 py-10 bg-main  text-white">
-      <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-52 z-10 relative">
+    <section  className="px-5 sm:px-[72px] relative mt-12 py-10 bg-main  text-white">
+      <div data-aos="fade-down" className="flex flex-col lg:flex-row lg:items-center lg:space-x-52 z-10 relative">
         <div className="mt-14 lg:mb-16 mb-8 ">
           <h2 className=" font-bold font-raleway z-10 leading-[1] text-2xl sm:text-[3rem] ">
             {t("home.cta1.heading")}
@@ -19,7 +19,7 @@ const Cta = ({ t }) => {
         </Link>
       </div>
 
-      <div className="h-6 w-[24px] z-0 absolute top-48 right-12 sm:right-32 bg-[#FCBDBD] "></div>
+      <div data-aos="fade-down" className="h-6 w-[24px] z-0 absolute top-48 right-12 sm:right-32 bg-[#FCBDBD] "></div>
       <img
         src={IMAGES.BoxdesignB2}
         alt=""

@@ -3,13 +3,13 @@ import { IMAGES } from '../../utils'
 
 const Hero = ({ t }) => {
     return (
-        <main className='w-full h-screen bg-red-500'>
-            <div
+        <main className=' w-full h-screen bg-red-500'>
+            <div 
                 style={{ backgroundImage: `url(${IMAGES.HomeBg1})`, backgroundPosition:"center"}}
                 className=" bg-no-repeat w-full h-full bg-cover relative pb-12"
             >
                 <div className=" absolute inset-0 bg-black opacity-40"></div>
-                <div className="padding relative h-full w-full sm:w-5/6 min-[1300px]:w-3/4 flex flex-col justify-end text-white">
+                <div data-aos="fade-up" className="padding relative h-full w-full sm:w-5/6 min-[1300px]:w-3/4 flex flex-col justify-end text-white">
                     <div className="flex space-x-3 ">
                         <div className="bg-main mt-[4px] w-[11px]"></div>
                         <div>

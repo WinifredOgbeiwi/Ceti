@@ -15,7 +15,7 @@ const HowItWorks = ({ t }) => {
         </p>
       </div>
 
-      <div className='grid mx-5 sm:mx-[72px] bg-white grid-cols-1 md:grid-cols-3 md:space-x-6 space-y-6 md:space-y-0 '>
+      <div data-aos="fade-down" className='grid mx-5 sm:mx-[72px] bg-white grid-cols-1 md:grid-cols-3 md:space-x-6 space-y-6 md:space-y-0 '>
 
         {
           items.map(({ heading, no, paragraph, icon: Icon }) => (

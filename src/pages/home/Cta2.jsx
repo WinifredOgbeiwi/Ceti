@@ -3,7 +3,7 @@ import React from 'react'
 const Cta2 = ({ t }) => {
   return (
     <section className='px-5 sm:px-[72px] mt-40 bg-white'>
-      <div className='flex flex-col md:flex-row  gap-4 justify-between md:items-center border-[1px] border-black p-6 sm:p-14'>
+      <div data-aos="fade-down" className='flex flex-col md:flex-row  gap-4 justify-between md:items-center border-[1px] border-black p-6 sm:p-14'>
         <div>
           <h2 className=" text-3xl sm:text-5xl font-raleway font-bold">
             {t("home.cta2.heading")}
