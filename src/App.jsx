@@ -15,7 +15,7 @@ const App = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <BrowserRouter>
+      
         <Routes>
           <Route element={<Layout t={t}/>}>
             <Route path={ROUTES.home} element={<Home t={t} />} />
@@ -28,7 +28,7 @@ const App = () => {
     
           <Route path={ROUTES.not_found} element={<PageNotFound />} />
         </Routes>
-      </BrowserRouter>
+   
     </div>
   )
 }
