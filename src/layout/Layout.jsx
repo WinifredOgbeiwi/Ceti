@@ -8,7 +8,7 @@ const Layout = ({t}) => {
     <main className='flex flex-col max-w-[1440px] m-auto w-full'>
       <section className=''>
         <Navbar t={t}/>
-        <Outlet />
+        <Outlet t={t}/>
       </section>
       <Footer t={t} />
     </main>

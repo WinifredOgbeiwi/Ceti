@@ -52,16 +52,17 @@ export const IMAGES = {
   Expertise,
   ExpertiseIcon1,
   ExpertiseIcon2,
-  ExpertiseIcon3
+  ExpertiseIcon3,
 };
 
 export const ROUTES = {
   home: "/",
-  about: "about-us",
-  services: "services",
-  contact: "contact-us",
-  regulation: "regulations",
-  privacy: "privacy",
+  about: "/about-us",
+  services: "/services",
+  contact: "/contact-us",
+  regulation: "/regulations",
+  privacy: "/privacy",
+  management: "/management",
   not_found: "*",
 };
 
