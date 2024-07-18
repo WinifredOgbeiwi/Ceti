@@ -18,8 +18,8 @@ const HowItWorks = ({ t }) => {
       <div data-aos="fade-down" className='grid mx-5 sm:mx-[72px] bg-white grid-cols-1 md:grid-cols-3 md:space-x-6 space-y-6 md:space-y-0 '>
 
         {
-          items.map(({ heading, no, paragraph, icon: Icon }) => (
-            <div className="flex ">
+          items.map(({ id, heading, no, paragraph, icon: Icon }) => (
+            <div key={id} className="flex ">
               <div className="bg-main border-2 border-main w-[10rem] ">
                 <Icon className="m-auto h-full text-white text-3xl" />
               </div>

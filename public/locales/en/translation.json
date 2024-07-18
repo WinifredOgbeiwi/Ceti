@@ -6,14 +6,18 @@
       "about": "About Us",
       "contact": "Contact Us"
     },
-    "footer":{
-      "paragraph":"CETI specialize in investment and business advisory to help you achieve your goals. From partner matching to transaction advisory and business consulting, we are committed to your success. Explore our services to support your business growth.",
-      "heading":"Get In Touch",
-      "address":"Żurawiej 6/12 st., Warsaw, Poland",
-      "foot":"All Rights Reserved.",
-      "link1":"Regulations",
-      "link2":"Privacy Policy"
+    "footer": {
+      "paragraph": "CETI specialize in investment and business advisory to help you achieve your goals. From partner matching to transaction advisory and business consulting, we are committed to your success. Explore our services to support your business growth.",
+      "heading": "Get In Touch",
+      "address": "Żurawiej 6/12 st., Warsaw, Poland",
+      "foot": "All Rights Reserved.",
+      "link1": "Regulations",
+      "link2": "Privacy Policy"
     }
+  },
+  "cta":{
+    "contact":"Contact Us",
+    "services":"Explore Our Services"
   },
   "home": {
     "herosection": {
@@ -35,8 +39,7 @@
     },
     "cta1": {
       "heading": "Transform Your Business Today",
-      "paragraph": "Discover How We Can Elevate Your Business",
-      "button": "Explore Our Services"
+      "paragraph": "Discover How We Can Elevate Your Business"
     },
     "aboutus": {
       "heading": "About Us",
@@ -64,6 +67,48 @@
       "paragraph": "Talk to our experts today",
       "content": "We value direct relationships. Contact us today to discuss how we can help your business grow",
       "button": "Get in Touch"
+    }
+  },
+  "about": {
+    "herosection": {
+      "heading": "About Us",
+      "subheading": "Driving Success through Expert Advisory "
+    },
+    "purpose": {
+      "heading": "Our Purpose",
+      "subheading": "Driving Success with Expert Business Solutions",
+      "paragraph": "At Central European Trade Integration (CETI), our purpose is rooted in the expectations of our stakeholders and the pressing challenges of today’s world. We are dedicated to contributing to meaningful solutions and fostering trust within society and the business community. Our mission is not only defined by the services we provide but also by the integrity and excellence with which we deliver them. We strive to build lasting value for our partners through expert advisory, sustainable business practices, and unwavering commitment to their success."
+    },
+    "value": {
+      "heading": "Our Values",
+      "paragraph": "At Central European Trade Integration (CETI), our purpose is to contribute to solving important problems and building trust in society and business. This applies not only to \"what we do\" but also to \"how we do it.\""
+    },
+    "sustainability": {
+      "heading": "Sustainability",
+      "paragraph": "We aim to support sustainable business practices that benefit both our clients and the environment. Our commitment to sustainability is at the core of our operations, ensuring long-term success for all stakeholders"
+    },
+    "globalreach": {
+      "heading": "Our Global Reach",
+      "paragraph": "We operate on an international scale, ensuring our clients benefit from global market opportunities. Our network and expertise allow us to navigate complex markets and deliver exceptional resultsWe operate on an international scale, ensuring our clients benefit from global market opportunities. Our network and expertise allow us to navigate complex markets and deliver exceptional results"
+    },
+    "expertise": {
+      "heading": "Our Expertise",
+      "subheading": "Building Value, Driving Success",
+      "paragraph": "With a team of highly experienced capital market professionals, we specialize in investment and business advisory. Our main goal is to jointly build value together with our business partners, supporting them in the field of business and transaction advisory.",
+      "section1heading": "Investment Advisor",
+      "section1paragraph": "Tailored investment strategies to maximize your returns",
+      "section2heading": "Business Consulting",
+      "section2paragraph": "Comprehensive solutions to drive business growth",
+      "section3heading": "Transaction Support",
+      "section3paragraph": "Expert guidance through complex transactions."
+    },
+    "explore": {
+      "heading": "Explore",
+      "board": "Managment Board"
+    },
+    "cta": {
+      "heading": "Tell Us about your business",
+      "paragraph": "We are ready to help"
     }
   }
 }

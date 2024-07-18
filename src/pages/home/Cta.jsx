@@ -15,7 +15,7 @@ const Cta = ({ t }) => {
           </p>
         </div>
         <Link to={"/"} className="border-2 text-lg whitespace-nowrap w-fit border-white py-4 px-5">
-          {t("home.cta1.button")}
+          {t("cta.services")}
         </Link>
       </div>
 

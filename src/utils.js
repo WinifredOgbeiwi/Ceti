@@ -1,5 +1,7 @@
 import Logo from "./assets/ceti-logo.png";
-import HomeBg1 from "./assets/homebg-1.png";
+import HomeBg1 from "./assets/homebg1.png";
+import HomeBg2 from "./assets/homebg2.png";
+import HomeBg3 from "./assets/homebg3.png";
 import HomeBoxImg1 from "./assets/home_box_img1.png";
 import HomeBoxImg2 from "./assets/home_box_img2.png";
 import HomeBoxImg3 from "./assets/home_box_img3.png";
@@ -14,6 +16,13 @@ import No1 from "./assets/no1.png";
 import No2 from "./assets/no2.png";
 import No3 from "./assets/no3.png";
 import LogoWhite from "./assets/ceti-logo-white.png";
+import Aboutbg from "./assets/aboutbg.png";
+import AboutPurpose from "./assets/purpose-img.png";
+import AboutValue from "./assets/value-img.png";
+import Expertise from "./assets/expertiseimg.png";
+import ExpertiseIcon1 from "./assets/expertise-icon1.png";
+import ExpertiseIcon2 from "./assets/expertise-icon2.png";
+import ExpertiseIcon3 from "./assets/expertise-icon3.png";
 
 import { IoSearchSharp, IoSettingsOutline } from "react-icons/io5";
 import { TbBulb } from "react-icons/tb";
@@ -21,6 +30,8 @@ import { TbBulb } from "react-icons/tb";
 export const IMAGES = {
   Logo,
   HomeBg1,
+  HomeBg2,
+  HomeBg3,
   HomeBoxImg1,
   HomeBoxImg2,
   HomeBoxImg3,
@@ -35,6 +46,13 @@ export const IMAGES = {
   No2,
   No3,
   LogoWhite,
+  Aboutbg,
+  AboutPurpose,
+  AboutValue,
+  Expertise,
+  ExpertiseIcon1,
+  ExpertiseIcon2,
+  ExpertiseIcon3
 };
 
 export const ROUTES = {
@@ -89,5 +107,26 @@ export const getHeroWorkItems = (t) => [
     no: No3,
     icon: TbBulb,
     paragraph: t("home.howitworks.box3paragraph"),
+  },
+];
+
+export const getExpertisesItems = (t) => [
+  {
+    id: 1,
+    heading: t("about.expertise.section1heading"),
+    img: ExpertiseIcon1,
+    paragraph: t("about.expertise.section1paragraph"),
+  },
+  {
+    id: 2,
+    heading: t("about.expertise.section2heading"),
+    img: ExpertiseIcon2,
+    paragraph: t("about.expertise.section2paragraph"),
+  },
+  {
+    id: 3,
+    heading: t("about.expertise.section3heading"),
+    img: ExpertiseIcon3,
+    paragraph: t("about.expertise.section3paragraph"),
   },
 ];

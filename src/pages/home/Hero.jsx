@@ -3,7 +3,7 @@ import { IMAGES } from '../../utils'
 
 const Hero = ({ t }) => {
     return (
-        <main className=' w-full h-screen bg-red-500'>
+        <main className=' w-full h-screen'>
             <div 
                 style={{ backgroundImage: `url(${IMAGES.HomeBg1})`, backgroundPosition:"center"}}
                 className=" bg-no-repeat w-full h-full bg-cover relative pb-12"

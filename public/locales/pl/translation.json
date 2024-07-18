@@ -1,5 +1,5 @@
 {
-  "layout":{
+  "layout": {
     "nav": {
       "home": "Strona Główna",
       "services": "Usługi",
@@ -15,7 +15,11 @@
       "link2": "Polityka Prywatności"
     }
   },
-  "home":{
+  "cta": {
+    "contact": "Contact Us",
+    "services": "Odkryj nasze usługi"
+  },
+  "home": {
     "herosection": {
       "heading": "Witamy w CETI",
       "subheading1": "Współpraca i zaufanie",
@@ -35,8 +39,7 @@
     },
     "cta1": {
       "heading": "Przekształć swój biznes już dziś",
-      "paragraph": "Odkryj, jak możemy podnieść Twój biznes",
-      "button": "Odkryj nasze usługi"
+      "paragraph": "Odkryj, jak możemy podnieść Twój biznes"
     },
     "aboutus": {
       "heading": "O Nas",
@@ -64,6 +67,49 @@
       "paragraph": "Porozmawiaj dziś z naszymi ekspertami",
       "content": "Cenimy bezpośrednie relacje. Skontaktuj się z nami już dziś, aby omówić, jak możemy pomóc w rozwoju Twojego biznesu",
       "button": "Skontaktuj się"
+    }
+  },
+  "about": {
+    "herosection": {
+      "heading": "O nas",
+      "subheading": "Sukces dzięki fachowemu doradztwu "
+    },
+    "purpose": {
+      "heading": "Nasz cel",
+      "subheading": "Osiąganie sukcesu dzięki specjalistycznym rozwiązaniom biznesowym",
+      "paragraph": "W Central European Trade Integration (CETI) nasz cel jest zakorzeniony w oczekiwaniach naszych interesariuszy i palących wyzwaniach dzisiejszego świata. Naszym celem jest przyczynianie się do tworzenia znaczących rozwiązań i wzmacniania zaufania w społeczeństwie i społeczności biznesowej. Naszą misję wyznaczają nie tylko świadczone przez nas usługi, ale także uczciwość i doskonałość, z jaką je świadczymy. Staramy się budować trwałą wartość dla naszych partnerów poprzez fachowe doradztwo, zrównoważone praktyki biznesowe i niezachwiane zaangażowanie w ich sukces."
+    },
+    "value": {
+      "heading": "Nasze wartości",
+      "paragraph": "W Central European Trade Integration (CETI) naszym celem jest przyczynianie się do rozwiązywania ważnych problemów i budowania zaufania w społeczeństwie i biznesie. Dotyczy to nie tylko tego, co robimy, ale także tego, jak to robimy."
+    },
+    "sustainability": {
+      "heading": "Zrównoważony rozwój",
+      "paragraph": "Naszym celem jest wspieranie zrównoważonych praktyk biznesowych, które przynoszą korzyści zarówno naszym klientom, jak i środowisku. Nasze zaangażowanie w zrównoważony rozwój leży u podstaw naszej działalności, zapewniając długoterminowy sukces wszystkim zainteresowanym stronom"
+    },
+    "globalreach": {
+      "heading": "Nasz globalny zasięg",
+      "paragraph": "Działamy w skali międzynarodowej, zapewniając naszym klientom możliwość korzystania z możliwości rynku globalnego. Nasza sieć i wiedza specjalistyczna pozwalają nam poruszać się po złożonych rynkach i zapewniać wyjątkowe wyniki. Działamy na skalę międzynarodową, zapewniając naszym klientom korzyści z możliwości rynku globalnego. Nasza sieć i wiedza specjalistyczna pozwalają nam poruszać się po złożonych rynkach i zapewniać wyjątkowe wyniki"
+    },
+
+    "expertise": {
+      "heading": "Nasza wiedza",
+      "subheading": "Budowanie Wartości, Napędzanie Sukcesu",
+      "paragraph": "Z zespołem wysoko doświadczonych profesjonalistów rynku kapitałowego specjalizujemy się w doradztwie inwestycyjnym i biznesowym. Naszym głównym celem jest wspólne budowanie wartości razem z naszymi partnerami biznesowymi, wspierając ich w zakresie doradztwa biznesowego i transakcyjnego.",
+      "section1heading": "Doradca Inwestycyjny",
+      "section1paragraph": "Dostosowane strategie inwestycyjne w celu maksymalizacji Twoich zwrotów",
+      "section2heading": "Doradztwo Biznesowe",
+      "section2paragraph": "Kompleksowe rozwiązania napędzające rozwój biznesu",
+      "section3heading": "Wsparcie Transakcyjne",
+      "section3paragraph": "Eksperckie wsparcie w skomplikowanych transakcjach."
+    },
+    "explore": {
+      "heading": "Odkryj",
+      "board": "Zarząd"
+    },
+    "cta": {
+      "heading": "Opowiedz Nam o Swoim Biznesie",
+      "paragraph": "Jesteśmy gotowi pomóc"
     }
   }
 }
