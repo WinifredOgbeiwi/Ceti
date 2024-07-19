@@ -2,9 +2,12 @@ import Logo from "./assets/ceti-logo.png";
 import HomeBg1 from "./assets/homebg1.png";
 import HomeBg2 from "./assets/homebg2.png";
 import HomeBg3 from "./assets/homebg3.png";
-import HomeBoxImg1 from "./assets/home_box_img1.png";
-import HomeBoxImg2 from "./assets/home_box_img2.png";
-import HomeBoxImg3 from "./assets/home_box_img3.png";
+import WhatWeDo1 from "./assets/what-we-do-img1.png";
+import WhatWeDo2 from "./assets/what-we-do-img2.png";
+import WhatWeDo3 from "./assets/what-we-do-img3.png";
+import WhatWeDo4 from "./assets/what-we-do-img4.png";
+import WhatWeDo5 from "./assets/what-we-do-img5.png";
+import WhatWeDo6 from "./assets/what-we-do-img6.png";
 import SideDesign from "./assets/sideDesign.png";
 import BoxdesignA2 from "./assets/box-design-A2.png";
 import BoxdesignB2 from "./assets/box-design-B2.png";
@@ -23,6 +26,10 @@ import Expertise from "./assets/expertiseimg.png";
 import ExpertiseIcon1 from "./assets/expertise-icon1.png";
 import ExpertiseIcon2 from "./assets/expertise-icon2.png";
 import ExpertiseIcon3 from "./assets/expertise-icon3.png";
+import Servicebg from "./assets/services-hero.png";
+import ServiceCtaGradient from "./assets/gradient.png";
+import ServiceCtaBg from "./assets/service-cta.png";
+import ServiceWhyUs from "./assets/service-why-us.png";
 
 import { IoSearchSharp, IoSettingsOutline } from "react-icons/io5";
 import { TbBulb } from "react-icons/tb";
@@ -32,9 +39,12 @@ export const IMAGES = {
   HomeBg1,
   HomeBg2,
   HomeBg3,
-  HomeBoxImg1,
-  HomeBoxImg2,
-  HomeBoxImg3,
+  WhatWeDo1,
+  WhatWeDo2,
+  WhatWeDo3,
+  WhatWeDo4,
+  WhatWeDo5,
+  WhatWeDo6,
   SideDesign,
   BoxdesignA2,
   BoxdesignB2,
@@ -53,6 +63,10 @@ export const IMAGES = {
   ExpertiseIcon1,
   ExpertiseIcon2,
   ExpertiseIcon3,
+  Servicebg,
+  ServiceCtaBg,
+  ServiceCtaGradient,
+  ServiceWhyUs,
 };
 
 export const ROUTES = {
@@ -129,5 +143,128 @@ export const getExpertisesItems = (t) => [
     heading: t("about.expertise.section3heading"),
     img: ExpertiseIcon3,
     paragraph: t("about.expertise.section3paragraph"),
+  },
+];
+
+export const getServiceItems = (t) => [
+  {
+    id: 1,
+    heading: t("common.whatwedo.box1title"),
+    img: WhatWeDo1,
+    paragraph: t("common.whatwedo.box1paragraph"),
+  },
+  {
+    id: 2,
+    heading: t("common.whatwedo.box2title"),
+    img: WhatWeDo2,
+    paragraph: t("common.whatwedo.box2paragraph"),
+  },
+  {
+    id: 3,
+    heading: t("common.whatwedo.box3title"),
+    img: WhatWeDo3,
+    paragraph: t("common.whatwedo.box3paragraph"),
+  },
+  {
+    id: 4,
+    heading: t("common.whatwedo.box4title"),
+    img: WhatWeDo4,
+    paragraph: t("common.whatwedo.box4paragraph"),
+  },
+  {
+    id: 5,
+    heading: t("common.whatwedo.box5title"),
+    img: WhatWeDo5,
+    paragraph: t("common.whatwedo.box5paragraph"),
+  },
+  {
+    id: 6,
+    heading: t("common.whatwedo.box6title"),
+    img: WhatWeDo6,
+    paragraph: t("common.whatwedo.box6paragraph"),
+  },
+];
+
+export const getHowWeHelpItems = (t) => [
+  {
+    id: 1,
+    heading: t("services.howwehelp.title1"),
+    items: [
+      t("services.howwehelp.list1a"),
+      t("services.howwehelp.list1b"),
+      t("services.howwehelp.list1c"),
+    ],
+  },
+  {
+    id: 2,
+    heading: t("services.howwehelp.title2"),
+    items: [
+      t("services.howwehelp.list2a"),
+      t("services.howwehelp.list2b"),
+      t("services.howwehelp.list2c"),
+    ],
+  },
+  {
+    id: 3,
+    heading: t("services.howwehelp.title3"),
+    items: [
+      t("services.howwehelp.list3a"),
+      t("services.howwehelp.list3b"),
+      t("services.howwehelp.list3c"),
+    ],
+  },
+  {
+    id: 4,
+    heading: t("services.howwehelp.title4"),
+    items: [
+      t("services.howwehelp.list4a"),
+      t("services.howwehelp.list4b"),
+      t("services.howwehelp.list4c"),
+    ],
+  },
+  {
+    id: 5,
+    heading: t("services.howwehelp.title5"),
+    items: [
+      t("services.howwehelp.list5a"),
+      t("services.howwehelp.list5b"),
+      t("services.howwehelp.list5c"),
+    ],
+  },
+  {
+    id: 6,
+    heading: t("services.howwehelp.title6"),
+    items: [
+      t("services.howwehelp.list6a"),
+      t("services.howwehelp.list6b"),
+      t("services.howwehelp.list6c"),
+    ],
+  },
+  {
+    id: 7,
+    heading: t("services.howwehelp.title7"),
+    items: [
+      t("services.howwehelp.list7a"),
+      t("services.howwehelp.list7b"),
+      t("services.howwehelp.list7c"),
+    ],
+  },
+];
+
+export const getWhyChooseUsItems = (t) => [
+  {
+    id: 1,
+    heading: t("services.whychooseus.title1"),
+    paragraph: t("services.whychooseus.paragraph1"),
+  },
+  {
+    id: 2,
+    heading: t("services.whychooseus.title2"),
+    paragraph: t("services.whychooseus.paragraph2"),
+  },
+  {
+    id: 3,
+    heading: t("services.whychooseus.title3"),
+    paragraph: t("services.whychooseus.paragraph3"),
   },
 ];

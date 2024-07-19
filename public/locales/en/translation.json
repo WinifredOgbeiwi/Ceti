@@ -15,18 +15,12 @@
       "link2": "Privacy Policy"
     }
   },
-  "cta":{
-    "contact":"Contact Us",
-    "services":"Explore Our Services"
+  "cta": {
+    "contact": "Contact Us",
+    "services": "Explore Our Services",
+    "contact2": "Contact Us Today"
   },
-  "home": {
-    "herosection": {
-      "heading": "Welcome to CETI",
-      "subheading1": "Cooperation and trust",
-      "subheading2": "",
-      "paragraph": "Central European Trade Integration (CETI) is a team of highly experienced capital market professionals specializing in investment and business advisory. Our primary goal is to collaboratively create value with our business partners, providing expert support in business and transaction advisory services",
-      "button": "Contact Us Today"
-    },
+  "common": {
     "whatwedo": {
       "title": "What we do",
       "paragraph": "Driving Success with Expert Business Solutions",
@@ -35,7 +29,21 @@
       "box2title": "Transaction Advisory",
       "box2paragraph": "We provide expert advice on transactions to help businesses expand their operations safely",
       "box3title": "Business Consulting",
-      "box3paragraph": "Our consulting services are designed to help your business grow and succeed."
+      "box3paragraph": "Our consulting services are designed to help your business grow and succeed.",
+      "box4title": "International Market Expansion",
+      "box4paragraph": "We support the development of Polish enterprises abroad and assist foreign businesses looking to invest in Poland.",
+      "box5title": " Economic Models Development",
+      "box5paragraph": "Our team develops economic models tailored to your company's needs, ensuring robust and sustainable growth.",
+      "box6title": " Trade Negotiations Support",
+      "box6paragraph": "We provide full support during trade negotiations, ensuring your interests are well-represented and agreements are beneficial."
+    }
+  },
+  "home": {
+    "herosection": {
+      "heading": "Welcome to CETI",
+      "subheading1": "Cooperation and trust",
+      "subheading2": "",
+      "paragraph": "Central European Trade Integration (CETI) is a team of highly experienced capital market professionals specializing in investment and business advisory. Our primary goal is to collaboratively create value with our business partners, providing expert support in business and transaction advisory services"
     },
     "cta1": {
       "heading": "Transform Your Business Today",
@@ -109,6 +117,65 @@
     "cta": {
       "heading": "Tell Us about your business",
       "paragraph": "We are ready to help"
+    }
+  },
+  "services": {
+    "herosection": {
+      "heading": "Our services",
+      "subheading": "Comprehensive Solutions for Business Success"
+    },
+    "howwehelp": {
+      "heading": "How We Help",
+      "title1": "Matching Business Partners",
+      "list1a": "Identifying potential partners",
+      "list1b": "Vetting and selection process",
+      "list1c": "Facilitating introductions and partnerships",
+
+      "title2": "Transaction Advisory",
+      "list2a": "Mergers and acquisitions",
+      "list2b": "Financial restructuring",
+      "list2c": "Due diligence",
+
+      "title3": "Business Consulting",
+      "list3a": "Strategic planning",
+      "list3b": "Market analysis",
+      "list3c": "Process optimization",
+
+      "title4": "Economic Modeling",
+      "list4a": "Financial forecasting",
+      "list4b": "Risk assessment",
+      "list4c": "Economic impact analysis",
+
+      "title5": "Foreign Contractor Analysis",
+      "list5a": "Background checks",
+      "list5b": "Performance evaluation",
+      "list5c": "Compliance verification",
+
+      "title6": "Trade Negotiations",
+      "list6a": "Negotiation strategy",
+      "list6b": "Contract drafting",
+      "list6c": "Representation at negotiations",
+
+      "title7": "Trade Missions and Fairs",
+      "list7a": "Event planning & coordination",
+      "list7b": "Marketing and promotion",
+      "list7c": "Logistical support"
+    },
+    "cta": {
+      "heading": "Let’s Discuss Your Business ",
+      "paragraph": "Explore our services to learn how CETI can support your business growth and expansion"
+    },
+    "whychooseus": {
+      "heading": "Why Choose Us",
+      "subheading": "Partnering with CETI will drive your business success",
+      "paragraph": "Choosing the right partner for your business growth is crucial. At CETI, we pride ourselves on our commitment to excellence, offering unparalleled expertise and a comprehensive range of services designed to meet your unique needs. Here's why CETI is the ideal choice for your business",
+
+      "title1": "Expertise",
+      "paragraph1": "Our team of experienced capital market professionals delivers top-notch, tailored advisory services.",
+      "title2": "Comprehensive Services",
+      "paragraph2": "Offering partner matching, transaction advisory, and business consulting to support your growth.",
+      "title3": "Global Reach",
+      "paragraph3": "We operate internationally, providing valuable insights and connections to global market opportunities."
     }
   }
 }

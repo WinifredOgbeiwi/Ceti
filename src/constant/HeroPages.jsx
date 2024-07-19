@@ -1,12 +1,10 @@
 import React from 'react'
-import { IMAGES } from '../../utils'
 
-
-const Hero = ({ t }) => {
+const HeroPage = ({ backgroundImage, heading, subheading }) => {
     return (
         <main className=' w-full h-screen'>
             <div
-                style={{ backgroundImage: `url(${IMAGES.Aboutbg})`, backgroundPosition: "center" }}
+                style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: "center" }}
                 className=" bg-no-repeat w-full h-full bg-cover relative pb-12"
             >
                 <div className=" absolute inset-0 bg-black opacity-40"></div>
@@ -14,9 +12,9 @@ const Hero = ({ t }) => {
                     <div className="flex space-x-3 ">
                         <div className="bg-main mt-[4px] w-[11px]"></div>
                         <div>
-                            <h1 className=" font-raleway font-bold text-4xl md:text-5xl lg:text-7xl ">{t("about.herosection.heading")}</h1>
+                            <h1 className=" font-raleway font-bold text-4xl md:text-5xl lg:text-7xl ">{heading}</h1>
                             <h2 className=" font-raleway mt-2 text-2xl md:text-3xl lg:text-4xl font-medium">
-                                {t("about.herosection.subheading")}
+                                {subheading}
                             </h2>
                         </div>
 
@@ -29,4 +27,4 @@ const Hero = ({ t }) => {
     )
 }
 
-export default Hero
+export default HeroPage

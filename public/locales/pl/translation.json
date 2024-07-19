@@ -17,16 +17,10 @@
   },
   "cta": {
     "contact": "Contact Us",
-    "services": "Odkryj nasze usługi"
+    "services": "Odkryj nasze usługi",
+    "contact2":"Skontaktuj się z nami już dziś"
   },
-  "home": {
-    "herosection": {
-      "heading": "Witamy w CETI",
-      "subheading1": "Współpraca i zaufanie",
-      "subheading2": "",
-      "paragraph": "Central European Trade Integration (CETI) to zespół doświadczonych specjalistów rynku kapitałowego specjalizujących się w doradztwie inwestycyjnym i biznesowym. Naszym nadrzędnym celem jest wspólne tworzenie wartości z naszymi partnerami biznesowymi, zapewniając wsparcie eksperckie w zakresie usług doradztwa biznesowego i transakcyjnego",
-      "button": "Skontaktuj się z nami już dziś"
-    },
+  "common": {
     "whatwedo": {
       "title": "Co robimy",
       "paragraph": "Osiąganie sukcesu dzięki specjalistycznym rozwiązaniom biznesowym",
@@ -35,8 +29,23 @@
       "box2title": "Doradztwo transakcyjne",
       "box2paragraph": "Zapewniamy fachowe doradztwo w zakresie transakcji, aby pomóc firmom bezpiecznie rozwijać swoją działalność.",
       "box3title": "Konsultacja Biznesowa",
-      "box3paragraph": "Nasze usługi doradcze mają na celu pomóc Twojej firmie rozwijać się i odnosić sukcesy."
+      "box3paragraph": "Nasze usługi doradcze mają na celu pomóc Twojej firmie rozwijać się i odnosić sukcesy.",
+      "box4title": "Ekspansja rynku międzynarodowego",
+      "box4paragraph": "Wspieramy rozwój polskich przedsiębiorstw za granicą i pomagamy zagranicznym przedsiębiorstwom chcącym inwestować w Polsce.",
+      "box5title": "Rozwój modeli ekonomicznych",
+      "box5paragraph": "Nasz zespół opracowuje modele ekonomiczne dostosowane do potrzeb Twojej firmy, zapewniając silny i zrównoważony rozwój.",
+      "box6title": "Wsparcie negocjacji handlowych",
+      "box6paragraph": "Zapewniamy pełne wsparcie podczas negocjacji handlowych, dbając o dobrą reprezentację Twoich interesów i korzystne porozumienia."
+    }
+  },
+  "home": {
+    "herosection": {
+      "heading": "Witamy w CETI",
+      "subheading1": "Współpraca i zaufanie",
+      "subheading2": "",
+      "paragraph": "Central European Trade Integration (CETI) to zespół doświadczonych specjalistów rynku kapitałowego specjalizujących się w doradztwie inwestycyjnym i biznesowym. Naszym nadrzędnym celem jest wspólne tworzenie wartości z naszymi partnerami biznesowymi, zapewniając wsparcie eksperckie w zakresie usług doradztwa biznesowego i transakcyjnego",
     },
+
     "cta1": {
       "heading": "Przekształć swój biznes już dziś",
       "paragraph": "Odkryj, jak możemy podnieść Twój biznes"
@@ -110,6 +119,65 @@
     "cta": {
       "heading": "Opowiedz Nam o Swoim Biznesie",
       "paragraph": "Jesteśmy gotowi pomóc"
+    }
+  },
+  "services": {
+    "herosection": {
+      "heading": "Nasze usługi",
+      "subheading": "Kompleksowe rozwiązania dla sukcesu biznesowego"
+    },
+    "howwehelp": {
+      "heading": "Jak Pomagamy",
+      "title1": "Dobór Partnerów Biznesowych",
+      "list1a": "Identyfikacja potencjalnych partnerów",
+      "list1b": "Proces weryfikacji i selekcji",
+      "list1c": "Ułatwianie nawiązywania kontaktów i partnerstw",
+
+      "title2": "Doradztwo Transakcyjne",
+      "list2a": "Fuzje i przejęcia",
+      "list2b": "Restrukturyzacja finansowa",
+      "list2c": "Due diligence",
+
+      "title3": "Doradztwo Biznesowe",
+      "list3a": "Planowanie strategiczne",
+      "list3b": "Analiza rynku",
+      "list3c": "Optymalizacja procesów",
+
+      "title4": "Modelowanie Ekonomiczne",
+      "list4a": "Prognozowanie finansowe",
+      "list4b": "Ocena ryzyka",
+      "list4c": "Analiza wpływu ekonomicznego",
+
+      "title5": "Analiza Kontrahentów Zagranicznych",
+      "list5a": "Sprawdzanie przeszłości",
+      "list5b": "Ocena wydajności",
+      "list5c": "Weryfikacja zgodności",
+
+      "title6": "Negocjacje Handlowe",
+      "list6a": "Strategia negocjacyjna",
+      "list6b": "Sporządzanie umów",
+      "list6c": "Reprezentacja podczas negocjacji",
+
+      "title7": "Misje i Targi Handlowe",
+      "list7a": "Planowanie i koordynacja wydarzeń",
+      "list7b": "Marketing i promocja",
+      "list7c": "Wsparcie logistyczne"
+    },
+    "cta": {
+      "heading": "Porozmawiajmy o Twoim Biznesie",
+      "paragraph": "Zapoznaj się z naszymi usługami, aby dowiedzieć się, jak CETI może wspierać rozwój i ekspansję Twojego biznesu"
+    },
+    "whychooseus": {
+      "heading": "Dlaczego Warto Nas Wybrać",
+      "subheading": "Współpraca z CETI przyczyni się do sukcesu Twojego biznesu",
+      "paragraph": "Wybór odpowiedniego partnera do rozwoju Twojego biznesu jest kluczowy. W CETI jesteśmy dumni z naszego zaangażowania w doskonałość, oferując niezrównaną ekspertyzę i kompleksowy zakres usług dostosowanych do Twoich unikalnych potrzeb. Oto dlaczego CETI jest idealnym wyborem dla Twojego biznesu",
+
+      "title1": "Ekspertyza",
+      "paragraph1": "Nasz zespół doświadczonych profesjonalistów rynku kapitałowego świadczy usługi doradcze najwyższej jakości, dostosowane do indywidualnych potrzeb.",
+      "title2": "Kompleksowe Usługi",
+      "paragraph2": "Oferujemy dopasowywanie partnerów, doradztwo transakcyjne i doradztwo biznesowe wspierające Twój rozwój.",
+      "title3": "Globalny Zasięg",
+      "paragraph3": "Działamy międzynarodowo, zapewniając cenne informacje i kontakty umożliwiające wykorzystanie globalnych możliwości rynkowych."
     }
   }
 }
