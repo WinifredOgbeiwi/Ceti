@@ -10,10 +10,10 @@ const WhyChooseUs = ({ t }) => {
                     <img src={IMAGES.ServiceWhyUs} alt="" className='w-full min-h-full'/>
                 </div>
                 <div className='md:w-1/2 sm:mr-10'>
-                    <h2 className=" text-3xl sm:text-[3.25rem] font-raleway font-bold">
+                    <h2 className=" text-3xl sm:text-6xl font-raleway font-bold">
                         {t("services.whychooseus.heading")}
                     </h2>
-                    <h4 className='font-medium text-lg md:text-2xl my-6'>   {t("services.whychooseus.subheading")}</h4>
+                    <h4 className='font-medium text-lg md:text-2xl my-3 sm:my-6'>   {t("services.whychooseus.subheading")}</h4>
                     <p className='sm:text-lg'>   {t("services.whychooseus.paragraph")}</p>
                     {
                         boxItem.map((item)=>(

@@ -25,15 +25,15 @@ const LangSwitcher = () => {
 
     return (
         <div onClick={toggleDropdown} className="hidden md:flex items-center cursor-pointer relative space-x-2">
-            <IoIosGlobe />
+            <IoIosGlobe className='text-xl' />
             <p className="selected-language" >
                 {lang === 'en' ? 'EN' : 'PL'}
             </p>
 
-            <RiArrowDropDownLine />
+            <RiArrowDropDownLine className='text-2xl' />
 
             {dropdownOpen && (
-                <div className="absolute top-9 text-center w-full ">
+                <div className="absolute top-7 text-center w-full py-[4px] font-medium bg-main text-white  ">
                     {lang === 'en' ? (
                         <p onClick={() => changeLanguage('pl')}>PL</p>
                     ) : (

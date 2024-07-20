@@ -26,23 +26,23 @@ const Footer = ({ t }) => {
 
         <div className='w-full lg:w-1/3'>
           <h4 className=''>{t('layout.footer.heading')}</h4>
-          <div className='flex gap-4 my-4 items-center'>
+          <address className='flex gap-4 my-4 items-center'>
 
             <div className='h-6 w-6 flex justify-center items-center bg-white rounded-full text-main'> <IoLocationOutline className='text-lg font-bold m-auto' /></div>
-            <p className='text-sm sm:text-base'>{t('layout.footer.address')}</p>
-          </div>
+            <p className='text-sm sm:text-base not-italic'>{t('layout.footer.address')}</p>
+          </address>
 
           <div className='flex gap-4 items-center'>
             <div className='h-6 w-6  flex justify-center items-center bg-white rounded-full text-main'> <MdOutlineMailOutline className='text-lg m-auto' /></div>
 
-            <p className='text-sm sm:text-base'>office@ceti.com</p>
+            <p translate='no' className='text-sm sm:text-base'><a href="mailto:office@ceti.com">office@ceti.com</a></p>
           </div>
 
         </div>
       </div>
       <div className='h-[4px] w-full bg-secondary mt-10 mb-8'></div>
       <div className='flex flex-col-reverse gap-5 md:0 md:flex-row justify-between'>
-        <h3 className='mb-12 text-sm sm:text-base' style={{ translate: "no" }}>CETI &copy; 2024.{t('layout.footer.foot')} </h3>
+        <h3 translate='no' className='mb-12 text-sm sm:text-base' style={{ translate: "no" }}>CETI &copy; 2024.{t('layout.footer.foot')} </h3>
         <div className='flex gap-2'>
           <Link className='text-sm sm:text-base'>{t('layout.footer.link1')}</Link>
           <p className='text-sm sm:text-base'>|</p>
