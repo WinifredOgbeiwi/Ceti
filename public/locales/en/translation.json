@@ -177,5 +177,27 @@
       "title3": "Global Reach",
       "paragraph3": "We operate internationally, providing valuable insights and connections to global market opportunities."
     }
+  },
+  "management":{
+    "herosection":{
+      "heading":"Management Board",
+      "paragraph":"We foster a culture of open dialogue, collaboration, and rigorous decision-making to create long-term value for our stakeholders."
+    },
+    "team":{
+      "heading": "Leadership Team",
+      "paragraph": "Meet the Management Board of Central European Trade Integration",
+      "team1": {
+        "name": "Piotr Minkina",
+        "title": "Managing Partner",
+        "paragraph1": "A graduate of the Warsaw School of Economics (SGH).",
+        "paragraph2": "Holder of CAIA and CFA in ESG Investing certificates. He has been involved in the capital market for more than 20 years, holding various roles in macroeconomic analysis, investment strategies and sustainability at leading banks and investment firms in Poland."
+      },
+      "team2": {
+        "name": "Michał Wiernicki",
+        "title": "Partner",
+        "paragraph1": "He has been involved in the capital market for more than 13 years, holding various managerial roles in tax optimization, private equity investments and transaction advisory at leading investment firms in Poland.",
+        "paragraph2": "A graduate of the Koźmiński University in Warsaw, majoring in Strategic Management and Financial Analyst of Markets and Securities."
+      }
+    }
   }
 }

@@ -18,7 +18,7 @@
   "cta": {
     "contact": "Contact Us",
     "services": "Odkryj nasze usługi",
-    "contact2":"Skontaktuj się z nami już dziś"
+    "contact2": "Skontaktuj się z nami już dziś"
   },
   "common": {
     "whatwedo": {
@@ -43,7 +43,7 @@
       "heading": "Witamy w CETI",
       "subheading1": "Współpraca i zaufanie",
       "subheading2": "",
-      "paragraph": "Central European Trade Integration (CETI) to zespół doświadczonych specjalistów rynku kapitałowego specjalizujących się w doradztwie inwestycyjnym i biznesowym. Naszym nadrzędnym celem jest wspólne tworzenie wartości z naszymi partnerami biznesowymi, zapewniając wsparcie eksperckie w zakresie usług doradztwa biznesowego i transakcyjnego",
+      "paragraph": "Central European Trade Integration (CETI) to zespół doświadczonych specjalistów rynku kapitałowego specjalizujących się w doradztwie inwestycyjnym i biznesowym. Naszym nadrzędnym celem jest wspólne tworzenie wartości z naszymi partnerami biznesowymi, zapewniając wsparcie eksperckie w zakresie usług doradztwa biznesowego i transakcyjnego"
     },
 
     "cta1": {
@@ -178,6 +178,28 @@
       "paragraph2": "Oferujemy dopasowywanie partnerów, doradztwo transakcyjne i doradztwo biznesowe wspierające Twój rozwój.",
       "title3": "Globalny Zasięg",
       "paragraph3": "Działamy międzynarodowo, zapewniając cenne informacje i kontakty umożliwiające wykorzystanie globalnych możliwości rynkowych."
+    }
+  },
+  "management": {
+    "herosection": {
+      "heading": "Zarząd",
+      "paragraph": "Promujemy kulturę otwartego dialogu, współpracy i rygorystycznego podejmowania decyzji, aby tworzyć długoterminową wartość dla naszych interesariuszy."
+    },
+    "team": {
+      "heading": "Zespół Zarządzający",
+      "paragraph": "Poznaj Zarząd Central European Trade Integration",
+      "team1": {
+        "name": "Piotr Minkina",
+        "title": "Partner Zarządzający",
+        "paragraph1": "Absolwent Szkoły Głównej Handlowej (SGH) w Warszawie.",
+        "paragraph2": "Posiadacz certyfikatów CAIA i CFA w inwestowaniu ESG. Od ponad 20 lat związany z rynkiem kapitałowym, zajmując różne stanowiska w zakresie analizy makroekonomicznej, strategii inwestycyjnych i zrównoważonego rozwoju w czołowych bankach i firmach inwestycyjnych w Polsce."
+      },
+      "team2": {
+        "name": "Michał Wiernicki",
+        "title": "Partner",
+        "paragraph1": "Od ponad 13 lat związany z rynkiem kapitałowym, zajmując różne stanowiska kierownicze w zakresie optymalizacji podatkowej, inwestycji private equity i doradztwa transakcyjnego w czołowych firmach inwestycyjnych w Polsce.",
+        "paragraph2": "Absolwent Akademii Leona Koźmińskiego w Warszawie, specjalizujący się w zarządzaniu strategicznym oraz analityce finansowej rynków i papierów wartościowych."
+      }
     }
   }
 }

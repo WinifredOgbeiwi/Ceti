@@ -4,7 +4,7 @@ import { IMAGES } from '../../utils'
 const Cta = ({t}) => {
   return (
       <section 
-    //   data-aos="fade-down" 
+      data-aos="fade-down" 
       className=' padding_top'>
           <div
               style={{ backgroundImage: `url(${IMAGES.ServiceCtaBg})`, backgroundPosition: "center" }}

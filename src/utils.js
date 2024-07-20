@@ -30,7 +30,8 @@ import Servicebg from "./assets/services-hero.png";
 import ServiceCtaGradient from "./assets/gradient.png";
 import ServiceCtaBg from "./assets/service-cta.png";
 import ServiceWhyUs from "./assets/service-why-us.png";
-
+import ManagingPartner from "./assets/managing-partner.png";
+import Partner from "./assets/partner.png";
 import { IoSearchSharp, IoSettingsOutline } from "react-icons/io5";
 import { TbBulb } from "react-icons/tb";
 
@@ -67,6 +68,8 @@ export const IMAGES = {
   ServiceCtaBg,
   ServiceCtaGradient,
   ServiceWhyUs,
+  ManagingPartner,
+  Partner,
 };
 
 export const ROUTES = {
@@ -266,5 +269,24 @@ export const getWhyChooseUsItems = (t) => [
     id: 3,
     heading: t("services.whychooseus.title3"),
     paragraph: t("services.whychooseus.paragraph3"),
+  },
+];
+
+export const getTeamPersonneltems = (t) => [
+  {
+    id: 1,
+    img: IMAGES.ManagingPartner,
+    name: t("management.team.team1.name"),
+    title: t("management.team.team1.title"),
+    paragraph1: t("management.team.team1.paragraph1"),
+    paragraph2: t("management.team.team1.paragraph2"),
+  },
+  {
+    id: 2,
+    img: IMAGES.Partner,
+    name: t("management.team.team2.name"),
+    title: t("management.team.team2.title"),
+    paragraph1: t("management.team.team2.paragraph1"),
+    paragraph2: t("management.team.team2.paragraph2"),
   },
 ];
