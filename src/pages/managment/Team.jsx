@@ -6,10 +6,10 @@ const Team = ({ t }) => {
     return (
         <section className="mt-40 padding">
             <div className="flex flex-col justify-center items-center text-center">
-                <h2 className="capitalize font-raleway font-bold text-2xl sm:text-4xl md:text-5xl mt-16 md:mt-10 mb-2">
+                <h2 className="capitalize font-raleway font-bold text-3xl sm:text-4xl md:text-5xl mt-0 sm:mt-16 md:mt-10 mb-2">
                     {t("management.team.heading")}
                 </h2>
-                <p className="text-lg sm:text-2xl lg:text-3xl ">
+                <p className="text-xl sm:text-2xl lg:text-3xl ">
                     {t("management.team.paragraph")}
                 </p>
             </div>
