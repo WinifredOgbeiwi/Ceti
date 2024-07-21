@@ -262,7 +262,7 @@
       "item5title": "Contacting Us",
       "item5body": "If you have any questions about this Privacy Notice or our privacy practices or wish to exercise your privacy rights, please write to us at the postal address or email address below. For other questions, you may visit our",
       "item5sub": {
-        "contact":"Contact Us Page",
+        "contact": "Contact Us Page",
         "subitem1": {
           "heading": "Visit Our Office",
           "paragraph": "Żurawiej 6/12 st., Warsaw"
@@ -272,6 +272,35 @@
           "paragraph": "Please click",
           "link": "HERE"
         }
+      }
+    }
+  },
+  "regulation": {
+    "herosection": {
+      "heading": "LEGAL NOTICE"
+    },
+    "body": {
+      "feature": "Feature",
+      "intro": {
+        "heading": "Introduction",
+        "introparagraph": "Understanding Our Commitment to Data Protection",
+        "paragraph1": "At Central European Trade Integration (CETI), the protection of personal data is treated with utmost seriousness. We aim to be transparent about the basis and method of processing personal data. This Privacy Policy provides information on our processing of personal data, specifies the legal basis for processing, the methods of collecting and using personal data, and outlines the rights of individuals.",
+        "paragraph2": "We use the provided personal data for the purposes specified in the individual sections of this document or for any other purpose indicated each time CETI begins data processing. Personal data means information relating to an identified or identifiable natural person.",
+        "paragraph3": "CETI processes personal data for various purposes. Depending on the purpose, different methods of collection, legal bases for processing, data recipients, storage periods, or rights related to the processing of personal data may apply. Detailed information can be found in the sections dedicated to specific data processing operations"
+      },
+      "security": {
+        "heading": "Security",
+        "introparagraph": "Ensuring the Safety of Your Data",
+        "paragraph1": "We take the security of all the data we hold very seriously. We adhere to recognized international security standards, and our information security management system for confidential customer data is independently certified and compliant with the requirements of ISO/IEC 27001: 2013.We have implemented framework policies, procedures, and training covering data protection, confidentiality, and security. We regularly review the implemented security measures for their adequacy."
+      },
+      "administrator": {
+        "heading": "Data Administrator",
+        "introparagraph": "Data Administrator and Contact Details",
+        "paragraph1": "The controller of personal data is Central European Trade Integration, which is a party to the contract for the provision or receipt of services, or the entity with which you contacted or from which you receive communications."
+      },
+      "controller": {
+        "heading": "Data Controller ",
+        "introparagraph": "Understanding Our Commitment to Data Protection"
       }
     }
   }

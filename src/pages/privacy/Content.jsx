@@ -23,7 +23,7 @@ const Content = ({ t }) => {
         <p className='ml-7 mt-2 text-base sm:text-lg'><span className='font-medium text-black'>{heading} </span>{paragraph}</p>
     )
     return (
-        <section className='mt-10 px-5 sm:px-[72px]'>
+        <section className='mt-7 sm:mt-10 px-5 sm:px-[72px]'>
       
             <MainList id="intro" heading={`1. ${t("privacy.body.item1title")} `} paragraph={t("privacy.body.item1body")} />
 

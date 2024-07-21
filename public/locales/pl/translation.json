@@ -276,5 +276,34 @@
         }
       }
     }
+  },
+  "regulation": {
+    "herosection": {
+      "heading": "INFORMACJE PRAWNE"
+    },
+    "body": {
+      "feature": "Funkcja",
+      "intro": {
+        "heading": "Wprowadzenie",
+        "introparagraph": "Zrozumienie Naszego Zaangażowania w Ochronę Danych",
+        "paragraph1": "W Central European Trade Integration (CETI) ochrona danych osobowych jest traktowana z najwyższą powagą. Dążymy do bycia transparentnymi w kwestii podstaw i sposobu przetwarzania danych osobowych. Niniejsza Polityka Prywatności dostarcza informacji na temat przetwarzania danych osobowych, określa podstawę prawną przetwarzania, metody zbierania i wykorzystywania danych osobowych oraz opisuje prawa osób, których dane dotyczą.",
+        "paragraph2": "Używamy dostarczonych danych osobowych do celów określonych w poszczególnych sekcjach tego dokumentu lub do jakiegokolwiek innego celu wskazanego każdorazowo, gdy CETI rozpoczyna przetwarzanie danych. Dane osobowe oznaczają informacje dotyczące zidentyfikowanej lub możliwej do zidentyfikowania osoby fizycznej.",
+        "paragraph3": "CETI przetwarza dane osobowe w różnych celach. W zależności od celu mogą mieć zastosowanie różne metody zbierania, podstawy prawne przetwarzania, odbiorcy danych, okresy przechowywania lub prawa związane z przetwarzaniem danych osobowych. Szczegółowe informacje można znaleźć w sekcjach poświęconych konkretnym operacjom przetwarzania danych."
+      },
+      "security": {
+        "heading": "Bezpieczeństwo",
+        "introparagraph": "Zapewnienie Bezpieczeństwa Twoich Danych",
+        "paragraph1": "Traktujemy bezpieczeństwo wszystkich posiadanych danych bardzo poważnie. Przestrzegamy uznanych międzynarodowych standardów bezpieczeństwa, a nasz system zarządzania bezpieczeństwem informacji dotyczących poufnych danych klientów jest niezależnie certyfikowany i zgodny z wymaganiami normy ISO/IEC 27001: 2013. Wdrożyliśmy ramowe polityki, procedury i szkolenia obejmujące ochronę danych, poufność i bezpieczeństwo. Regularnie przeglądamy wdrożone środki bezpieczeństwa pod kątem ich adekwatności."
+      },
+      "administrator": {
+        "heading": "Administrator Danych",
+        "introparagraph": "Administrator Danych i Dane Kontaktowe",
+        "paragraph1": "Administratorem danych osobowych jest Central European Trade Integration, która jest stroną umowy o świadczenie lub odbiór usług, lub podmiotem, z którym się skontaktowałeś lub od którego otrzymujesz komunikację."
+      },
+      "controller": {
+        "heading": "Administrator Danych",
+        "introparagraph": "Zrozumienie Naszego Zaangażowania w Ochronę Danych"
+      }
+    }
   }
 }
