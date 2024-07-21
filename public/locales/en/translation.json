@@ -178,12 +178,12 @@
       "paragraph3": "We operate internationally, providing valuable insights and connections to global market opportunities."
     }
   },
-  "management":{
-    "herosection":{
-      "heading":"Management Board",
-      "paragraph":"We foster a culture of open dialogue, collaboration, and rigorous decision-making to create long-term value for our stakeholders."
+  "management": {
+    "herosection": {
+      "heading": "Management Board",
+      "paragraph": "We foster a culture of open dialogue, collaboration, and rigorous decision-making to create long-term value for our stakeholders."
     },
-    "team":{
+    "team": {
       "heading": "Leadership Team",
       "paragraph": "Meet the Management Board of Central European Trade Integration",
       "team1": {
@@ -197,6 +197,81 @@
         "title": "Partner",
         "paragraph1": "He has been involved in the capital market for more than 13 years, holding various managerial roles in tax optimization, private equity investments and transaction advisory at leading investment firms in Poland.",
         "paragraph2": "A graduate of the Koźmiński University in Warsaw, majoring in Strategic Management and Financial Analyst of Markets and Securities."
+      }
+    }
+  },
+  "privacy": {
+    "herosection": {
+      "heading": "PRIVACY POLICY"
+    },
+    "body": {
+      "update": "This privacy statement was last updated on",
+      "tabletitle": "Table of Contents",
+      "item1title": "Introduction",
+      "item1body": "At CETI, we respect your privacy and data protection rights and recognize the importance of protecting the personal information we collect and process. This Privacy Notice is designed to help you understand what personal information we collect about you and how we use and share it in support of our business activities.",
+      "item2title": "Who is the Personal Data Administrator?",
+      "item2body": "The controller of personal data within the meaning of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (GDPR) is Central European Trade Integration with its registered office at Żurawia 6/12 st., Warsaw, Poland, e-mail: office@ceti.com.",
+      "item3title": "How Long Will My Data Be Stored?",
+      "item3body": "Personal data will be stored for the period of performance of the contract, fulfillment of legal obligations incumbent on the administrator, and investigation and defense against claims for the period resulting from the general limitation periods for claims, counted from the termination of participation. In the case of expressing marketing consents, personal data will be stored for the period necessary to provide commercial information, no longer than until the consent is withdrawn or the objection to processing for direct marketing purposes is expressed.",
+      "item4title": "How Does CETI Use Cookies?",
+      "item4body": {
+        "subitem1": {
+          "heading": "General Information",
+          "paragraph": "When providing content on this website, CETI uses cookies, i.e., files constituting IT data, in particular text files, which are stored on the end device of the Website user and are intended for using the website. They usually contain the name of the website they come from, their storage time on the end device, and a unique number."
+        },
+        "subitem2": {
+          "heading": "Purposes of Cookies",
+          "paragraph": "Adapting the content of the Website's pages to the user's preferences and optimizing the use of the websites; in particular, these files make it possible to recognize the Website user's device and properly display the website, tailored to their individual needs. Creating statistics that help understand how Website users use websites, which allows improving their structure and content. Maintaining the Website user's session (after logging in), so the User does not have to re-enter the login and password on each subpage of the Website. Providing users with advertising content more tailored to their interests."
+        },
+        "subitem3": {
+          "heading": "Types Of Cookies",
+          "paragraph": "The Website uses two basic types of cookies:'session cookies' and 'persistent cookies.' 'Session' cookies are temporary files, which are stored on the user's end device until logging out, leaving the website, or turning off the software (web browser). 'Persistent' cookies are stored on the user's end device for the time specified in the cookie parameters or until they are deleted by the user."
+        },
+        "subitem4": {
+          "heading": "Categories of Cookies",
+          "list1": {
+            "heading": "'Necessary' cookies",
+            "paragraph": " enabling the use of services available on the Website, e.g., authentication cookies used for services requiring authentication on the Website. Cookies used to ensure security, e.g., used to detect authentication abuses within the Website."
+          },
+          "list2": {
+            "heading": "'Performance' cookies",
+            "paragraph": "enabling the collection of information on how the Website pages are used."
+          },
+          "list3": {
+            "heading": "'Functional' cookies",
+            "paragraph": "enabling 'remembering' the settings selected by the user and personalizing the user interface, e.g., in terms of the selected language or region from which the User comes, font size, appearance of the website, etc."
+          },
+          "list4": {
+            "heading": "'Advertising' cookies",
+            "paragraph": "enabling the provision of advertising content to Users more tailored to their interests."
+          }
+        },
+        "subitem5": {
+          "heading": "Managing Cookies",
+          "paragraph": "In many cases, the software used to browse websites (web browser) allows cookies to be stored on the User's end device by default. Website users may change cookie settings at any time. These settings can be changed in particular in such a way as to block the automatic handling of cookies in the web browser settings or to inform each time they are placed on the Website User's device. Detailed information about the possibilities and methods of handling cookies is available in the software (web browser) settings."
+        },
+        "subitem6": {
+          "heading": "Impact of Restricting Cookies",
+          "paragraph": "The Website Operator informs that restrictions on the use of cookies may affect some functionalities available on the Website."
+        },
+        "subitem7": {
+          "heading": "Third-Party Cookies",
+          "paragraph": "Cookies placed on the Website User's end device may also be used by advertisers and partners cooperating with the Website operator.."
+        }
+      },
+      "item5title": "Contacting Us",
+      "item5body": "If you have any questions about this Privacy Notice or our privacy practices or wish to exercise your privacy rights, please write to us at the postal address or email address below. For other questions, you may visit our",
+      "item5sub": {
+        "contact":"Contact Us Page",
+        "subitem1": {
+          "heading": "Visit Our Office",
+          "paragraph": "Żurawiej 6/12 st., Warsaw"
+        },
+        "subitem2": {
+          "heading": "To Email Us ",
+          "paragraph": "Please click",
+          "link": "HERE"
+        }
       }
     }
   }

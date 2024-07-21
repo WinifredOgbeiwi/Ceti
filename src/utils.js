@@ -290,3 +290,34 @@ export const getTeamPersonneltems = (t) => [
     paragraph2: t("management.team.team2.paragraph2"),
   },
 ];
+
+export const getPrivacytems = (t) => [
+  {
+    id: "#intro",
+    title: t("privacy.body.item1title"),
+  },
+  {
+    id: "#who",
+    title: t("privacy.body.item2title"),
+  },
+  {
+    id: "#data",
+    title: t("privacy.body.item3title"),
+  },
+  {
+    id: "#cookies",
+    title: t("privacy.body.item4title"),
+  },
+  {
+    id: "#change",
+    title: t("privacy.body.item5title"),
+  },
+  {
+    id: "#controller",
+    title: t("privacy.body.item6title"),
+  },
+  {
+    id: "#contact",
+    title: t("privacy.body.item7title"),
+  },
+];

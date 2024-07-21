@@ -42,11 +42,11 @@ const Footer = ({ t }) => {
       </div>
       <div className='h-[4px] w-full bg-secondary mt-10 mb-8'></div>
       <div className='flex flex-col-reverse gap-5 md:0 md:flex-row justify-between'>
-        <h3 translate='no' className='mb-12 text-sm sm:text-base' style={{ translate: "no" }}>CETI &copy; 2024.{t('layout.footer.foot')} </h3>
+        <h3 className='mb-12 text-sm sm:text-base' style={{ translate: "no" }}><span translate='no'>CETI</span> &copy; 2024.{t('layout.footer.foot')} </h3>
         <div className='flex gap-2'>
-          <Link className='text-sm sm:text-base'>{t('layout.footer.link1')}</Link>
+          <Link to={ROUTES.regulation} className='text-sm sm:text-base'>{t('layout.footer.link1')}</Link>
           <p className='text-sm sm:text-base'>|</p>
-          <Link className='text-sm sm:text-base'>{t('layout.footer.link2')}</Link>
+          <Link to={ROUTES.privacy} className='text-sm sm:text-base'>{t('layout.footer.link2')}</Link>
         </div>
       </div>
 
