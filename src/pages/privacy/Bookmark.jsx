@@ -10,7 +10,7 @@ const Bookmark = ({ t }) => {
             <ol className=' list-decimal list-inside text-[#D35447]'>
                 {
                     bookmarkTitle.map((item) => (
-                        <li key={item.id} className='mt-4 text-lg sm:text-xl' ><span className=' underline ml-2'>{item.title}</span></li>
+                        <li key={item.id} className='mt-4 text-lg sm:text-xl' ><a href={item.id} className=' underline ml-2'>{item.title}</a></li>
                     ))
                 }
 

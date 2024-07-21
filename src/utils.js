@@ -305,19 +305,19 @@ export const getPrivacytems = (t) => [
     title: t("privacy.body.item3title"),
   },
   {
-    id: "#cookies",
+    id: "#cookies-usage",
     title: t("privacy.body.item4title"),
   },
   {
-    id: "#change",
+    id: "#contact",
     title: t("privacy.body.item5title"),
   },
   {
-    id: "#controller",
+    id: "#change",
     title: t("privacy.body.item6title"),
   },
   {
-    id: "#contact",
+    id: "#controller",
     title: t("privacy.body.item7title"),
   },
 ];

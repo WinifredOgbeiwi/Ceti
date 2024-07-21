@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { ROUTES } from '../../utils'
 
 const Content = ({ t }) => {
-    const MainList = ({ heading, paragraph }) => (
-        <div className="mt-6">
+    const MainList = ({ heading, paragraph,id }) => (
+        <div id={id} className="mt-6">
             <h2 className=" font-raleway font-bold text-2xl"> {heading}</h2>
             <p className="text-base sm:text-lg text-secondary mt-2 ">{paragraph}</p>
         </div>
@@ -24,14 +24,14 @@ const Content = ({ t }) => {
     )
     return (
         <section className='mt-10 px-5 sm:px-[72px]'>
-            {/* 1 */}
-            <MainList heading={`1. ${t("privacy.body.item1title")} `} paragraph={t("privacy.body.item1body")} />
+      
+            <MainList id="intro" heading={`1. ${t("privacy.body.item1title")} `} paragraph={t("privacy.body.item1body")} />
 
-            <MainList heading={`2. ${t("privacy.body.item2title")} `} paragraph={t("privacy.body.item2body")} />
+            <MainList id="who" heading={`2. ${t("privacy.body.item2title")} `} paragraph={t("privacy.body.item2body")} />
 
-            <MainList heading={`3. ${t("privacy.body.item3title")} `} paragraph={t("privacy.body.item3body")} />
+            <MainList id="data" heading={`3. ${t("privacy.body.item3title")} `} paragraph={t("privacy.body.item3body")} />
 
-            <div className="mt-6 " >
+            <div id='cookies-usage' className="mt-6 " >
                 <h2 className="font-raleway font-bold text-2xl">4. {t("privacy.body.item4title")}</h2>
 
                 <SubItems heading={t("privacy.body.item4body.subitem1.heading")} paragraph={t("privacy.body.item4body.subitem1.paragraph")} />
@@ -54,7 +54,7 @@ const Content = ({ t }) => {
                 </div>
             </div>
 
-            <div className="mt-6">
+            <div id='contact' className="mt-6 ">
                 <h2 className=" font-raleway font-bold text-2xl">5. {t("privacy.body.item5title")} </h2>
                 <p className="text-base sm:text-lg text-secondary mt-2 mb-6 ">{t("privacy.body.item5body")} <span className='underline'><Link to={ROUTES.contact}>{t("privacy.body.item5sub.contact")}</Link></span></p>
                 <div>
