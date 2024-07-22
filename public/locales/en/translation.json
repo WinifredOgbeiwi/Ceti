@@ -303,5 +303,29 @@
         "introparagraph": "Understanding Our Commitment to Data Protection"
       }
     }
+  },
+  "contact": {
+    "herosection": {
+      "heading": "Contact Us",
+      "subheading": "We Value Direct Relationships"
+    },
+    "body": {
+      "heading": "Get In Touch With Us",
+      "paragraph": "Driving Success with Expert Business Solutions",
+      "form": {
+        "title": "Send Us A Message",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "email": "Email",
+        "message":"Message",
+        "msgplaceholder":"Tell us how we can help you",
+        "button":"Send Message"
+      },
+      "sideinfo":{
+        "mail":"Mail Us",
+        "call":"Call Us",
+        "locate":"Locate Us"
+      }
+    }
   }
 }

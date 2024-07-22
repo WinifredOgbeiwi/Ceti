@@ -12,7 +12,7 @@ const HeroPage = ({ backgroundImage, heading, subheading }) => {
                     <div className="flex space-x-3 ">
                         <div className="bg-main mt-[4px] w-[11px]"></div>
                         <div>
-                            <h1 className=" font-raleway font-bold text-4xl md:text-5xl lg:text-7xl ">{heading}</h1>
+                            <h1 className=" font-raleway font-bold text-4xl md:text-5xl lg:text-7xl capitalize ">{heading}</h1>
                             <h2 className=" font-raleway mt-2 text-2xl md:text-3xl lg:text-4xl font-medium">
                                 {subheading}
                             </h2>

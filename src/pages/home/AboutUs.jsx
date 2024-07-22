@@ -9,7 +9,7 @@ const AboutUs = ({ t }) => {
 
   return (
     <section data-aos="fade-down" className="px-5 sm:px-[72px] padding_top relative">
-      <h2 className='text-3xl sm:text-[3.25rem] font-raleway font-bold'>{t('home.aboutus.heading')}</h2>
+      <h2 className='text-3xl sm:text-5xl font-raleway font-bold'>{t('home.aboutus.heading')}</h2>
 
       <div className="relative">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between">

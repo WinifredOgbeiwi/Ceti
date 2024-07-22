@@ -13,11 +13,11 @@ const Team = ({ t }) => {
                     {t("management.team.paragraph")}
                 </p>
             </div>
-            <div></div>
+       
 
             <div className="mt-8 md:mt-14 grid grid-cols-1 md:grid-cols-2 gap-10">
                 {getTeamPersonnels.map((item) => (
-                    <div className="flex flex-col ">
+                    <div key={item.id} className="flex flex-col ">
                         <img src={item.img} alt="" className="w-full" />
                         <div className="bg-black  text-white py-8 px-8 flex-grow">
                             <h4 className="font-bold font-raleway text-3xl ">{item.name}</h4>

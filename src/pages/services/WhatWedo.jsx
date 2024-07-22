@@ -6,7 +6,7 @@ const WhatWedo = ({ t }) => {
 
   return (
     <section data-aos="fade-down" className='px-5 sm:px-[72px] padding_top'>
-      <h2  className=" text-3xl sm:text-[3.25rem] font-raleway font-bold">
+      <h2  className=" text-3xl sm:text-4xl font-raleway font-bold">
         {t("common.whatwedo.title")}
       </h2>
       <p className="text-base sm:text-2xl mb-10 text-secondary mt-3">

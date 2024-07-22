@@ -305,5 +305,29 @@
         "introparagraph": "Zrozumienie Naszego Zaangażowania w Ochronę Danych"
       }
     }
+  },
+  "contact": {
+    "herosection": {
+      "heading": "Skontaktuj się z nami",
+      "subheading": "Cenimy bezpośrednie relacje"
+    },
+    "body": {
+      "heading": "Skontaktuj się z nami",
+      "paragraph": "Osiągaj sukcesy dzięki eksperckim rozwiązaniom biznesowym",
+      "form": {
+        "title": "Wyślij nam wiadomość",
+        "firstname": "Imię",
+        "lastname": "Nazwisko",
+        "email": "Email",
+        "message": "Wiadomość",
+        "msgplaceholder": "Powiedz nam, jak możemy Ci pomóc",
+        "button": "Wyślij wiadomość"
+      },
+      "sideinfo": {
+        "mail": "Napisz do nas",
+        "call": "Zadzwoń do nas",
+        "locate": "Znajdź nas"
+      }
+    }
   }
 }

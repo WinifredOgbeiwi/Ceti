@@ -5,15 +5,15 @@ const WhyChooseUs = ({ t }) => {
     const boxItem = getWhyChooseUsItems(t)
     return (
         <section className='padding_top '>
-            <div className='flex flex-col md:flex-row md:items-center gap-8 px-5 md:px-0'>
-                <div className='md:w-1/2 h-full'>
+            <div className='flex flex-col lg:flex-row lg:items-center gap-8 px-5 lg:px-0'>
+                <div className='lg:w-1/2 h-full'>
                     <img src={IMAGES.ServiceWhyUs} alt="" className='w-full min-h-full'/>
                 </div>
-                <div className='md:w-1/2 sm:mr-10'>
+                <div className='lg:w-1/2 sm:mr-10'>
                     <h2 className=" text-3xl sm:text-6xl font-raleway font-bold">
                         {t("services.whychooseus.heading")}
                     </h2>
-                    <h4 className='font-medium text-lg md:text-2xl my-3 sm:my-6'>   {t("services.whychooseus.subheading")}</h4>
+                    <h4 className='font-medium text-lg lg:text-2xl my-3 sm:my-6'>   {t("services.whychooseus.subheading")}</h4>
                     <p className='sm:text-lg'>   {t("services.whychooseus.paragraph")}</p>
                     {
                         boxItem.map((item)=>(

@@ -6,7 +6,7 @@ import { MdOutlineMailOutline } from 'react-icons/md'
 
 const Footer = ({ t }) => {
   return (
-    <footer className='bg-black text-white mt-10 px-5 sm:px-[72px]'>
+    <footer className='bg-black text-white mt-10 pt-2 px-5 sm:px-[72px]'>
       <ul className='flex gap-4 sm:space-x-8 mt-8 text-sm sm:text-lg'>
         <li><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
         <li><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>

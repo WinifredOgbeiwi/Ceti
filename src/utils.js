@@ -32,6 +32,10 @@ import ServiceCtaBg from "./assets/service-cta.png";
 import ServiceWhyUs from "./assets/service-why-us.png";
 import ManagingPartner from "./assets/managing-partner.png";
 import Partner from "./assets/partner.png";
+import ContactUsBg from "./assets/contact-us-bg.png";
+import Callbox from "./assets/callbox.png";
+import Emailbox from "./assets/emailbox.png";
+import Locationbox from "./assets/locationbox.png";
 import { IoSearchSharp, IoSettingsOutline } from "react-icons/io5";
 import { TbBulb } from "react-icons/tb";
 
@@ -70,6 +74,10 @@ export const IMAGES = {
   ServiceWhyUs,
   ManagingPartner,
   Partner,
+  ContactUsBg,
+  Callbox,
+  Emailbox,
+  Locationbox,
 };
 
 export const ROUTES = {
