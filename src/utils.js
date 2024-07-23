@@ -116,21 +116,18 @@ export const getHeroWorkItems = (t) => [
   {
     id: 1,
     heading: t("home.howitworks.box1heading"),
-    no: No1,
     icon: IoSearchSharp,
     paragraph: t("home.howitworks.box1paragraph"),
   },
   {
     id: 2,
     heading: t("home.howitworks.box2heading"),
-    no: No2,
     icon: IoSettingsOutline,
     paragraph: t("home.howitworks.box2paragraph"),
   },
   {
     id: 3,
     heading: t("home.howitworks.box3heading"),
-    no: No3,
     icon: TbBulb,
     paragraph: t("home.howitworks.box3paragraph"),
   },
