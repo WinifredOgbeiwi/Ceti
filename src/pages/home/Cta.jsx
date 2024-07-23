@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { IMAGES } from "../../utils";
+import { IMAGES, ROUTES } from "../../utils";
 
 const Cta = ({ t }) => {
   return (
@@ -14,7 +14,7 @@ const Cta = ({ t }) => {
             {t("home.cta1.paragraph")}
           </p>
         </div>
-        <Link to={"/"} className="hover border-2 text-lg whitespace-nowrap w-fit border-white py-4 px-5">
+        <Link to={ROUTES.services} className="hover border-2 text-lg whitespace-nowrap w-fit border-white py-4 px-5">
           {t("cta.services")}
         </Link>
       </div>
