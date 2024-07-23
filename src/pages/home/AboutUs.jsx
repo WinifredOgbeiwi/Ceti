@@ -13,7 +13,7 @@ const AboutUs = ({ t }) => {
 
       <div className="relative">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between">
-          <p className='w-full text-base sm:text-2xl text-secondary font-medium mt-3'>{t('home.aboutus.paragraph')}</p>
+          <p className='w-full text-base sm:text-2xl text-secondary font-medium mt-3 capitalize'>{t('home.aboutus.paragraph')}</p>
           <div className="flex flex-col items-center w-full lg:max-w-md mx-auto">
             <ul className="flex mt-8 lg:mt-0 justify-between w-full">
               {links.map((link) => (
@@ -53,9 +53,9 @@ const AboutUs = ({ t }) => {
 
           </div>
         ))}
-      
+
       </div>
-     
+
     </section>
   );
 };
