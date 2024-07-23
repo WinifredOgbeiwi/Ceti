@@ -272,7 +272,11 @@
           "paragraph": "Please click",
           "link": "HERE"
         }
-      }
+      },
+      "item6title": "Can the privacy policy change?",
+      "item6body": " CETI reserves the right to change the above privacy policy by publishing a new privacy policy on this website.",
+      "item7title": "How can I contact the data controller?",
+      "item7body": " You provide us with voluntary data, and we use it in accordance with your will and in accordance with the purpose of providing it. In any situation, when you consent to the processing of personal data, you can correct or delete it - just send us an e-mail with your request to office@ceti.com, titled 'My personal data'."
     }
   },
   "regulation": {
@@ -317,14 +321,14 @@
         "firstname": "First Name",
         "lastname": "Last Name",
         "email": "Email",
-        "message":"Message",
-        "msgplaceholder":"Tell us how we can help you",
-        "button":"Send Message"
+        "message": "Message",
+        "msgplaceholder": "Tell us how we can help you",
+        "button": "Send Message"
       },
-      "sideinfo":{
-        "mail":"Mail Us",
-        "call":"Call Us",
-        "locate":"Locate Us"
+      "sideinfo": {
+        "mail": "Mail Us",
+        "call": "Call Us",
+        "locate": "Locate Us"
       }
     }
   }

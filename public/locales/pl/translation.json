@@ -24,11 +24,11 @@
     "whatwedo": {
       "title": "Co robimy",
       "paragraph": "Osiąganie sukcesu dzięki specjalistycznym rozwiązaniom biznesowym",
-      "box1title": "Pasujący partnerzy biznesowi",
-      "box1paragraph": "W CETI identyfikujemy i wybieramy potencjalnych partnerów, aby zapewnić udaną współpracę.",
+      "box1title": "Łączenie partnerów biznesowych",
+      "box1paragraph": "W CETI identyfikujemy i wyszukujemy potencjalnych partnerów, aby zapewnić udaną współpracę.",
       "box2title": "Doradztwo transakcyjne",
       "box2paragraph": "Zapewniamy fachowe doradztwo w zakresie transakcji, aby pomóc firmom bezpiecznie rozwijać swoją działalność.",
-      "box3title": "Konsultacja Biznesowa",
+      "box3title": "Doradztwo biznesowe",
       "box3paragraph": "Nasze usługi doradcze mają na celu pomóc Twojej firmie rozwijać się i odnosić sukcesy.",
       "box4title": "Ekspansja rynku międzynarodowego",
       "box4paragraph": "Wspieramy rozwój polskich przedsiębiorstw za granicą i pomagamy zagranicznym przedsiębiorstwom chcącym inwestować w Polsce.",
@@ -274,7 +274,11 @@
           "paragraph": "Kliknij",
           "link": "TUTAJ"
         }
-      }
+      },
+      "item6title": "Czy polityka prywatności może się zmienić?",
+      "item6body": "CETI zastrzega sobie prawo do zmiany powyższej polityki prywatności poprzez opublikowanie nowej polityki prywatności na tej stronie internetowej.",
+      "item7title": "Jak mogę skontaktować się z administratorem danych?",
+      "item7body": "Podajesz nam dobrowolnie dane, a my wykorzystujemy je zgodnie z Twoją wolą i celem ich przekazania. W każdej sytuacji, kiedy wyrażasz zgodę na przetwarzanie danych osobowych, możesz je poprawić lub usunąć - wystarczy, że wyślesz do nas e-mail ze swoim żądaniem na adres office@ceti.com, zatytułowany 'Moje dane osobowe'."
     }
   },
   "regulation": {
