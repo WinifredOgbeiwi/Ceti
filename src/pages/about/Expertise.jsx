@@ -32,7 +32,7 @@ const Expertise = ({ t }) => {
                             </div>
                         ))}
                     </div>
-                    <Link to={ROUTES.services} className=" whitespace-nowrap w-fit bg-main py-4 px-5 mt-7 text-white">
+                    <Link to={ROUTES.services} className="hover whitespace-nowrap w-fit bg-main py-4 px-5 mt-7 text-white">
                         {t("cta.services")}
                     </Link>
                 </div>

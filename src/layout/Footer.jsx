@@ -8,11 +8,11 @@ const Footer = ({ t }) => {
   return (
     <footer className='bg-black text-white mt-10 pt-2 px-5 sm:px-[72px]'>
       <ul className='flex gap-4 sm:space-x-8 mt-8 text-sm sm:text-lg'>
-        <li><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
-        <li><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>
-        <li><Link to={ROUTES.about}>{t('layout.nav.about')}</Link></li>
+        <li className='hover'><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
+        <li className='hover'><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>
+        <li className='hover'><Link to={ROUTES.about}>{t('layout.nav.about')}</Link></li>
 
-        <li><Link to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
+        <li className='hover'><Link to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
       </ul>
       <div className='h-[4px] w-full bg-secondary mt-6 mb-10'></div>
 
@@ -29,13 +29,15 @@ const Footer = ({ t }) => {
           <address className='flex gap-4 my-4 items-center'>
 
             <div className='h-6 w-6 flex justify-center items-center bg-white rounded-full text-main'> <IoLocationOutline className='text-lg font-bold m-auto' /></div>
-            <p className='text-sm sm:text-base not-italic'>{t('layout.footer.address')}</p>
+            
+            <a href="https://maps.app.goo.gl/SW25Tk5xnexrkujh9" className='hover text-sm sm:text-base not-italic'>   {t('layout.footer.address')}</a>
+           
           </address>
 
           <div className='flex gap-4 items-center'>
             <div className='h-6 w-6  flex justify-center items-center bg-white rounded-full text-main'> <MdOutlineMailOutline className='text-lg m-auto' /></div>
 
-            <p translate='no' className='text-sm sm:text-base'><a href="mailto:office@ceti.com">office@ceti.com</a></p>
+            <p translate='no' className='hover text-sm sm:text-base'><a href="mailto:office@ceti.com">office@ceti.com</a></p>
           </div>
 
         </div>
@@ -44,9 +46,9 @@ const Footer = ({ t }) => {
       <div className='flex flex-col-reverse gap-5 md:0 md:flex-row justify-between'>
         <h3 className='mb-12 text-sm sm:text-base' style={{ translate: "no" }}><span translate='no'>CETI</span> &copy; 2024.{t('layout.footer.foot')} </h3>
         <div className='flex gap-2'>
-          <Link to={ROUTES.regulation} className='text-sm sm:text-base'>{t('layout.footer.link1')}</Link>
+          <Link to={ROUTES.regulation} className='hover text-sm sm:text-base'>{t('layout.footer.link1')}</Link>
           <p className='text-sm sm:text-base'>|</p>
-          <Link to={ROUTES.privacy} className='text-sm sm:text-base'>{t('layout.footer.link2')}</Link>
+          <Link to={ROUTES.privacy} className='hover text-sm sm:text-base'>{t('layout.footer.link2')}</Link>
         </div>
       </div>
 

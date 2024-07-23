@@ -25,7 +25,7 @@ const WhyChooseUs = ({ t }) => {
                     </div>
                         ))
                     }
-                    <button className="bg-main w-fit px-5 py-4 my-6 text-white"> {t("cta.services")}</button>
+                    {/* <button className="bg-main w-fit px-5 py-4 my-6 text-white"> {t("cta.services")}</button> */}
                 </div>
 
             </div>

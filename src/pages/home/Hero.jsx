@@ -1,11 +1,12 @@
 import React from 'react'
-import { IMAGES } from '../../utils'
+import { IMAGES, ROUTES } from '../../utils'
+import { Link } from 'react-router-dom'
 
 const Hero = ({ t }) => {
     return (
         <main className=' w-full h-screen'>
-            <div 
-                style={{ backgroundImage: `url(${IMAGES.HomeBg1})`, backgroundPosition:"center"}}
+            <div
+                style={{ backgroundImage: `url(${IMAGES.HomeBg1})`, backgroundPosition: "center" }}
                 className=" bg-no-repeat w-full h-full bg-cover relative pb-12"
             >
                 <div className=" absolute inset-0 bg-black opacity-40"></div>
@@ -20,7 +21,10 @@ const Hero = ({ t }) => {
                         </div>
                     </div>
                     <p className="mt-7 font-roboto  md:text-base lg:text-xl">{t("home.herosection.paragraph")}</p>
-                    <button className="bg-main w-fit px-5 py-4 mt-6"> {t("cta.contact2")}</button>
+                    <Link to={ROUTES.contact} className=' hover'>
+                        <button className="bg-main w-fit px-5 py-4 mt-6"> {t("cta.contact2")}</button>
+                    </Link>
+
                 </div>
             </div>
         </main>

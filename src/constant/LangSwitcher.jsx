@@ -34,7 +34,7 @@ const LangSwitcher = () => {
             <RiArrowDropDownLine className='text-2xl' />
 
             {dropdownOpen && (
-                <div className="absolute top-10 -left-2 md:-left-0 md:top-7 text-center w-full py-[4px] font-medium bg-white md:bg-main text-black md:text-white  ">
+                <div className="hover absolute top-10 -left-2 md:-left-0 md:top-7 text-center w-full py-[4px] font-medium bg-white md:bg-main text-black md:text-white  ">
                     {lang === 'en' ? (
                         <p onClick={() => changeLanguage('pl')}>PL</p>
                     ) : (

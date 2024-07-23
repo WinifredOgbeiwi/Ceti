@@ -1,5 +1,6 @@
 import React from 'react'
-import { IMAGES } from '../../utils'
+import { IMAGES, ROUTES } from '../../utils'
+import { Link } from 'react-router-dom'
 
 const Cta = ({t}) => {
   return (
@@ -16,7 +17,10 @@ const Cta = ({t}) => {
                   <p className=" mt-3 sm:text-2x md:text-lg sm:w-3/4 lg:w-[45%] font-medium">
                       {t("services.cta.paragraph")}
                   </p>
-                  <button className="bg-main w-fit px-5 py-4 my-6"> {t("cta.contact2")}</button>
+                  <Link to={ROUTES.contact}>
+                      <button className="hover bg-main w-fit px-5 py-4 my-6"> {t("cta.contact2")}</button>
+                  </Link>
+              
               </div>
             </div>
     </section>

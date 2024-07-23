@@ -14,7 +14,7 @@ const Cta = ({ t }) => {
             {t("home.cta1.paragraph")}
           </p>
         </div>
-        <Link to={"/"} className="border-2 text-lg whitespace-nowrap w-fit border-white py-4 px-5">
+        <Link to={"/"} className="hover border-2 text-lg whitespace-nowrap w-fit border-white py-4 px-5">
           {t("cta.services")}
         </Link>
       </div>

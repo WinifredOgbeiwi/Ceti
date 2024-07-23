@@ -29,7 +29,7 @@ const Form = ({ t }) => {
                         onChange={(e) => setInfo({ ...info, message: e.target.value })} className="border-2 rounded p-3 border-[#9D9C9D] outline-none" />
                     
                 </div>
-                <div className=" bg-main px-10 py-4 mt-4 w-fit text-white font-bold rounded">
+                <div className="hover bg-main px-10 py-4 mt-4 w-fit text-white font-bold rounded">
                     <button>  {t("cta.contact")}</button>
                 </div>
             </form>

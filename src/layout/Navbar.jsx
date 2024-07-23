@@ -16,7 +16,7 @@ const Navbar = ({ t, setMobileView, mobileView }) => {
     <>
 
       {
-         mobileView && (Width <=768) ? (
+        mobileView && (Width <= 768) ? (
           <div data-aos="fade-down" className='p-5 h-screen bg-black block  text-white '>
             <div className='flex justify-between'>
               <Link onClick={handlesClickedLink} to={ROUTES.home}>
@@ -36,7 +36,7 @@ const Navbar = ({ t, setMobileView, mobileView }) => {
               <li><Link onClick={handlesClickedLink} to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
               <LangSwitcher />
             </ul>
-            
+
           </div>
         )
           :
@@ -48,16 +48,16 @@ const Navbar = ({ t, setMobileView, mobileView }) => {
 
 
             <ul className='hidden md:flex space-x-8'>
-              <li><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
-              <li><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>
-              <li><Link to={ROUTES.about}>{t('layout.nav.about')}</Link></li>
+              <li className='hover hover:border-b-4 hover:border-main'><Link to={ROUTES.home}>{t('layout.nav.home')}</Link></li>
+              <li className='hover hover:border-b-4 hover:border-main'><Link to={ROUTES.services}>{t('layout.nav.services')}</Link></li>
+              <li className='hover hover:border-b-4 hover:border-main'><Link to={ROUTES.about}>{t('layout.nav.about')}</Link></li>
 
-              <li><Link to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
+              <li className='hover hover:border-b-4 hover:border-main'><Link to={ROUTES.contact}>{t('layout.nav.contact')}</Link></li>
             </ul>
             <div className='hidden md:block'>
-<LangSwitcher />
+              <LangSwitcher />
             </div>
-            
+
             <div className="block md:hidden text-3xl" onClick={() => setMobileView(!mobileView)}>
               {mobileView ? <FaTimes /> : <IoMdMenu />}
 

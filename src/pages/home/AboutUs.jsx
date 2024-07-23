@@ -20,7 +20,7 @@ const AboutUs = ({ t }) => {
                 <li
                   key={link.id}
                   onClick={() => setActiveLink(link.id)}
-                  className={`cursor-pointer m-auto py-2 max-[400px]:text-sm text-lg  sm:text-xl ${activeLink === link.id ? 'font-bold' : 'font-normal'}`}
+                  className={`hover cursor-pointer m-auto py-2 max-[400px]:text-sm text-lg  sm:text-xl ${activeLink === link.id ? 'font-bold' : 'font-normal'}`}
                 >
                   {link.label}
                 </li>
@@ -46,7 +46,7 @@ const AboutUs = ({ t }) => {
 
             <div className='flex flex-col space-y-4 md:mt-0 mt-10'>
               <p className=' text-lg z-10'> {link.paragraph}</p>
-              <Link to={ROUTES.about} className="border-2 border-main px-5 py-3 w-fit ">
+              <Link to={ROUTES.about} className="hover border-2 border-main px-5 py-3 w-fit ">
                 {t('home.aboutus.button')}
               </Link>
             </div>

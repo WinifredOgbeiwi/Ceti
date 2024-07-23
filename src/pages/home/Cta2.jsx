@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { ROUTES } from '../../utils'
 
 const Cta2 = ({ t }) => {
   return (
@@ -14,7 +16,10 @@ const Cta2 = ({ t }) => {
         </div>
         <div className=' w-full md:w-96 '>
           <p className='sm:text-lg'>{t("home.cta2.content")}</p>
+          <Link to={ROUTES.contact} className='hover'>
           <button className='bg-main text-white px-5 py-3 mt-6'>{t("home.cta2.button")}</button>
+          </Link>
+          
         </div>
       </div>
     </section>
