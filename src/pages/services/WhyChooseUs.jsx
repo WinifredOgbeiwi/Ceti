@@ -10,7 +10,7 @@ const WhyChooseUs = ({ t }) => {
                     <img src={IMAGES.ServiceWhyUs} alt="" className='w-full min-h-full'/>
                 </div>
                 <div className='lg:w-1/2 sm:mr-10'>
-                    <h2 className=" text-3xl sm:text-6xl font-raleway font-bold">
+                    <h2 className=" text-3xl sm:text-5xl font-raleway font-bold">
                         {t("services.whychooseus.heading")}
                     </h2>
                     <h4 className='font-medium text-lg lg:text-2xl my-3 sm:my-6'>   {t("services.whychooseus.subheading")}</h4>
