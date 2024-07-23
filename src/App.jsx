@@ -11,12 +11,13 @@ import Layout from './layout/Layout'
 import { useTranslation } from 'react-i18next'
 import { ROUTES } from './utils'
 import Management from './routes/Management'
+import ScrollToTop from './utils/ScrollToTop'
 
 const App = () => {
   const { t } = useTranslation();
   return (
     <div>
-
+      <ScrollToTop/>
       <Routes>
         <Route element={<Layout t={t} />}>
           <Route path={ROUTES.home} element={<Home t={t} />} />
