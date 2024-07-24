@@ -9,7 +9,6 @@
     "footer": {
       "paragraph": "CETI specjalizuje się w doradztwie inwestycyjnym i biznesowym, aby pomóc Ci osiągnąć Twoje cele. Od dopasowywania partnerów po doradztwo transakcyjne i konsulting biznesowy, jesteśmy zaangażowani w Twój sukces. Zapoznaj się z naszymi usługami wspierającymi rozwój Twojego biznesu.",
       "heading": "Skontaktuj się z nami",
-      "address": "ul. Żurawia 6/12, Warszawa, Polska",
       "foot": "Wszelkie prawa zastrzeżone.",
       "link1": "Regulamin",
       "link2": "Polityka Prywatności"
@@ -21,6 +20,8 @@
     "contact2": "Skontaktuj się z nami już dziś"
   },
   "common": {
+    "name": "Central European Trade Integration",
+    "address": "ul. Żurawia 6/12, Warszawa, Polska",
     "whatwedo": {
       "title": "Co robimy",
       "paragraph": "Osiąganie sukcesu dzięki specjalistycznym rozwiązaniom biznesowym",
@@ -227,24 +228,24 @@
         },
         "subitem3": {
           "heading": "Rodzaje Ciasteczek",
-          "paragraph": "Strona używa dwóch podstawowych rodzajów ciasteczek: 'sesyjne' ciasteczka oraz 'stałe' ciasteczka. 'Sesyjne' ciasteczka są tymczasowymi plikami, które są przechowywane na urządzeniu końcowym użytkownika do momentu wylogowania, opuszczenia strony internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). 'Stałe' ciasteczka są przechowywane na urządzeniu końcowym użytkownika przez czas określony w parametrach ciasteczek lub do momentu ich usunięcia przez użytkownika."
+          "paragraph": "Strona używa dwóch podstawowych rodzajów ciasteczek: \"sesyjne ciasteczka\" oraz \"stałe ciasteczka\". \"Sesyjne\" ciasteczka są tymczasowymi plikami, które są przechowywane na urządzeniu końcowym użytkownika do momentu wylogowania, opuszczenia strony internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). \"Stałe\" ciasteczka są przechowywane na urządzeniu końcowym użytkownika przez czas określony w parametrach ciasteczek lub do momentu ich usunięcia przez użytkownika."
         },
         "subitem4": {
           "heading": "Kategorie Ciasteczek",
           "list1": {
-            "heading": "'Niezbędne' ciasteczka",
+            "heading": "\"Niezbędne\" ciasteczka",
             "paragraph": "umożliwiające korzystanie z usług dostępnych na stronie, np. ciasteczka uwierzytelniające używane do usług wymagających uwierzytelnienia na stronie. Ciasteczka używane do zapewnienia bezpieczeństwa, np. używane do wykrywania nadużyć w zakresie uwierzytelniania w ramach serwisu."
           },
           "list2": {
-            "heading": "'Wydajnościowe' ciasteczka",
+            "heading": "\"Wydajnościowe\" ciasteczka",
             "paragraph": "umożliwiające zbieranie informacji o tym, jak użytkownicy strony korzystają z jej stron."
           },
           "list3": {
-            "heading": "'Funkcjonalne' ciasteczka",
+            "heading": "\"Funkcjonalne\" ciasteczka",
             "paragraph": "umożliwiające 'zapamiętanie' ustawień wybranych przez użytkownika i personalizację interfejsu użytkownika, np. w zakresie wybranego języka lub regionu, z którego pochodzi użytkownik, rozmiaru czcionki, wyglądu strony internetowej itp."
           },
           "list4": {
-            "heading": "'Reklamowe' ciasteczka",
+            "heading": "\"Reklamowe\" ciasteczka",
             "paragraph": "umożliwiające dostarczanie użytkownikom treści reklamowych bardziej dostosowanych do ich zainteresowań."
           }
         },
@@ -278,7 +279,8 @@
       "item6title": "Czy polityka prywatności może się zmienić?",
       "item6body": "CETI zastrzega sobie prawo do zmiany powyższej polityki prywatności poprzez opublikowanie nowej polityki prywatności na tej stronie internetowej.",
       "item7title": "Jak mogę skontaktować się z administratorem danych?",
-      "item7body": "Podajesz nam dobrowolnie dane, a my wykorzystujemy je zgodnie z Twoją wolą i celem ich przekazania. W każdej sytuacji, kiedy wyrażasz zgodę na przetwarzanie danych osobowych, możesz je poprawić lub usunąć - wystarczy, że wyślesz do nas e-mail ze swoim żądaniem na adres office@ceti.com, zatytułowany 'Moje dane osobowe'."
+      "item7body": "Podajesz nam dobrowolnie dane, a my wykorzystujemy je zgodnie z Twoją wolą i celem ich przekazania. W każdej sytuacji, kiedy wyrażasz zgodę na przetwarzanie danych osobowych, możesz je poprawić lub usunąć - wystarczy, że wyślesz do nas e-mail ze swoim żądaniem na adres, ",
+      "item7bodybreak": "zatytułowany 'Moje dane osobowe'."
     }
   },
   "regulation": {
@@ -306,7 +308,8 @@
       },
       "controller": {
         "heading": "Administrator Danych",
-        "introparagraph": "Zrozumienie Naszego Zaangażowania w Ochronę Danych"
+        "introparagraph": "Zrozumienie Naszego Zaangażowania w Ochronę Danych",
+        "paragraph1":"W przypadku jakichkolwiek pytań dotyczących niniejszego dokumentu oraz sposobu i celów przetwarzania przez nas danych osobowych, prosimy o kontakt pod adresem:"
       }
     }
   },

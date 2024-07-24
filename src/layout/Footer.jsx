@@ -30,7 +30,7 @@ const Footer = ({ t }) => {
 
             <div className='h-6 w-6 flex justify-center items-center bg-white rounded-full text-main'> <IoLocationOutline className='text-lg font-bold m-auto' /></div>
             
-            <a href="https://maps.app.goo.gl/SW25Tk5xnexrkujh9" className='hover text-sm sm:text-base not-italic'>   {t('layout.footer.address')}</a>
+            <a href="https://maps.app.goo.gl/SW25Tk5xnexrkujh9" className='hover text-sm sm:text-base not-italic'>   {t('commom.address')}</a>
            
           </address>
 

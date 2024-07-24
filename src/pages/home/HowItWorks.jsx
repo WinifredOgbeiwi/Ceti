@@ -20,11 +20,11 @@ const HowItWorks = ({ t }) => {
         {
           items.map(({ id, heading, paragraph, icon: Icon }) => (
             <div key={id} className="flex ">
-              <div className="bg-main border-2 border-main w-[10rem] ">
+              <div className="bg-main border-0 w-[10rem] ">
                 <Icon className="m-auto h-full text-white text-3xl" />
               </div>
 
-              <div className="  px-4 py-4 pb-8 border-r-2 border-b-2 border-t-2 border-black ">
+              <div className="  px-4 py-4 pb-8 border-r-2 border-t-2 border-black ">
               
                 <div className="md:w-full sm:w-[70%]">
                   <h4 className="mt-10 mb-3 text-lg sm:text-2xl font-semibold">{heading}</h4>

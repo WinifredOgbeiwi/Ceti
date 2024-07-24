@@ -9,7 +9,6 @@
     "footer": {
       "paragraph": "CETI specialize in investment and business advisory to help you achieve your goals. From partner matching to transaction advisory and business consulting, we are committed to your success. Explore our services to support your business growth.",
       "heading": "Get In Touch",
-      "address": "Żurawiej 6/12 st., Warsaw, Poland",
       "foot": "All Rights Reserved.",
       "link1": "Regulations",
       "link2": "Privacy Policy"
@@ -21,6 +20,8 @@
     "contact2": "Contact Us Today"
   },
   "common": {
+    "name": "Central European Trade Integration",
+    "address": "Żurawiej 6/12 st., Warsaw, Poland",
     "whatwedo": {
       "title": "What we do",
       "paragraph": "Driving Success with Expert Business Solutions",
@@ -189,8 +190,8 @@
       "team1": {
         "name": "Piotr Minkina",
         "title": "Managing Partner",
-        "paragraph1": "A graduate of the Warsaw School of Economics (SGH).",
-        "paragraph2": "Holder of CAIA and CFA in ESG Investing certificates. He has been involved in the capital market for more than 20 years, holding various roles in macroeconomic analysis, investment strategies and sustainability at leading banks and investment firms in Poland."
+        "paragraph1": "Holder of CAIA and CFA in ESG Investing certificates. He has been involved in the capital market for more than 20 years, holding various roles in macroeconomic analysis, investment strategies and sustainability at leading banks and investment firms in Poland.",
+        "paragraph2": "A graduate of the Warsaw School of Economics (SGH)."
       },
       "team2": {
         "name": "Michał Wiernicki",
@@ -225,24 +226,24 @@
         },
         "subitem3": {
           "heading": "Types Of Cookies",
-          "paragraph": "The Website uses two basic types of cookies:'session cookies' and 'persistent cookies.' 'Session' cookies are temporary files, which are stored on the user's end device until logging out, leaving the website, or turning off the software (web browser). 'Persistent' cookies are stored on the user's end device for the time specified in the cookie parameters or until they are deleted by the user."
+          "paragraph": "The Website uses two basic types of cookies: \"session cookies\" and \"persistent cookies\". \"Session\" cookies are temporary files, which are stored on the user's end device until logging out, leaving the website, or turning off the software (web browser). \"Persistent\" cookies are stored on the user's end device for the time specified in the cookie parameters or until they are deleted by the user."
         },
         "subitem4": {
           "heading": "Categories of Cookies",
           "list1": {
-            "heading": "'Necessary' cookies",
+            "heading": "\"Necessary\" cookies",
             "paragraph": " enabling the use of services available on the Website, e.g., authentication cookies used for services requiring authentication on the Website. Cookies used to ensure security, e.g., used to detect authentication abuses within the Website."
           },
           "list2": {
-            "heading": "'Performance' cookies",
+            "heading": "\"Performance\" cookies",
             "paragraph": "enabling the collection of information on how the Website pages are used."
           },
           "list3": {
-            "heading": "'Functional' cookies",
+            "heading": "\"Functional\" cookies",
             "paragraph": "enabling 'remembering' the settings selected by the user and personalizing the user interface, e.g., in terms of the selected language or region from which the User comes, font size, appearance of the website, etc."
           },
           "list4": {
-            "heading": "'Advertising' cookies",
+            "heading": "\"Advertising\" cookies",
             "paragraph": "enabling the provision of advertising content to Users more tailored to their interests."
           }
         },
@@ -276,7 +277,8 @@
       "item6title": "Can the privacy policy change?",
       "item6body": " CETI reserves the right to change the above privacy policy by publishing a new privacy policy on this website.",
       "item7title": "How can I contact the data controller?",
-      "item7body": " You provide us with voluntary data, and we use it in accordance with your will and in accordance with the purpose of providing it. In any situation, when you consent to the processing of personal data, you can correct or delete it - just send us an e-mail with your request to office@ceti.com, titled 'My personal data'."
+      "item7body": " You provide us with voluntary data, and we use it in accordance with your will and in accordance with the purpose of providing it. In any situation, when you consent to the processing of personal data, you can correct or delete it - just send us an e-mail with your request to,",
+      "item7bodybreak": "titled 'My personal data'."
     }
   },
   "regulation": {
@@ -304,7 +306,8 @@
       },
       "controller": {
         "heading": "Data Controller ",
-        "introparagraph": "Understanding Our Commitment to Data Protection"
+        "introparagraph": "Understanding Our Commitment to Data Protection",
+        "paragraph1": "If you have any questions regarding this document and the manner and purposes of our processing of personal data, please contact us at:"
       }
     }
   },

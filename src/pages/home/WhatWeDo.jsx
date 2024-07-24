@@ -7,7 +7,7 @@ const WhatWeDo = ({ t }) => {
       <img
         src={IMAGES.SideDesign}
         alt=""
-        className="absolute -z-30 left-0 top-32 sm:top-40"
+        className="absolute max-[370px]:top-40  -z-30 left-0 top-32 sm:top-40"
       />
       <h2 data-aos="fade-down" className=" text-3xl sm:text-[3.25rem] font-raleway font-bold">
         {t("common.whatwedo.title")}

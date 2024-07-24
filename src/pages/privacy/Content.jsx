@@ -27,9 +27,9 @@ const Content = ({ t }) => {
       
             <MainList id="intro" heading={`1. ${t("privacy.body.item1title")} `} paragraph={t("privacy.body.item1body")} />
 
-            <MainList id="who" heading={`2. ${t("privacy.body.item2title")} `} paragraph={t("privacy.body.item2body")} />
+            <MainList id="data-administrator" heading={`2. ${t("privacy.body.item2title")} `} paragraph={t("privacy.body.item2body")} />
 
-            <MainList id="data" heading={`3. ${t("privacy.body.item3title")} `} paragraph={t("privacy.body.item3body")} />
+            <MainList id="data-storage" heading={`3. ${t("privacy.body.item3title")} `} paragraph={t("privacy.body.item3body")} />
 
             <div id='cookies-usage' className="mt-6 " >
                 <h2 className="font-raleway font-bold text-2xl">4. {t("privacy.body.item4title")}</h2>
@@ -54,8 +54,16 @@ const Content = ({ t }) => {
                 </div>
             </div>
 
+            <MainList id="change-of-policy" heading={`5. ${t("privacy.body.item6title")} `} paragraph={t("privacy.body.item6body")} />
+
+           
+            <div id=" controller-contact" className="mt-6">
+                <h2 className=" font-raleway font-bold text-2xl">6. {t("privacy.body.item7title")}</h2>
+                <p className="text-base sm:text-lg text-secondary mt-2 ">{t("privacy.body.item7body")} <a href="mailto:office@ceti.com" className='font-medium'>office@ceti.com</a> <span >{t("privacy.body.item7bodybreak")}</span> </p>
+            </div>
+      
             <div id='contact' className="mt-6 ">
-                <h2 className=" font-raleway font-bold text-2xl">5. {t("privacy.body.item5title")} </h2>
+                <h2 className=" font-raleway font-bold text-2xl">7. {t("privacy.body.item5title")} </h2>
                 <p className="text-base sm:text-lg text-secondary mt-2 mb-6 ">{t("privacy.body.item5body")} <span className='underline'><Link to={ROUTES.contact}>{t("privacy.body.item5sub.contact")}</Link></span></p>
                 <div>
 

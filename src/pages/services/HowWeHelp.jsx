@@ -22,7 +22,7 @@ const HowWeHelp = ({ t }) => {
                                 {
                                     item.items.map((subitem, index) => (
                                         <ul key={index} className='flex items-start gap-4'>
-                                            <li className='min-w-[20px] min-h-[20px] border-2 border-secondary' ></li>
+                                            <li className='min-w-[20px] min-h-[20px] bg-main' ></li>
                                             <li key={index}> {subitem}</li>
                                         </ul>
 

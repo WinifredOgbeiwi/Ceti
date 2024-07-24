@@ -2,12 +2,12 @@ import Logo from "./assets/ceti-logo.png";
 import HomeBg1 from "./assets/homebg1.png";
 import HomeBg2 from "./assets/homebg2.png";
 import HomeBg3 from "./assets/homebg3.png";
-import WhatWeDo1 from "./assets/what-we-do-img1.png";
-import WhatWeDo2 from "./assets/what-we-do-img2.png";
-import WhatWeDo3 from "./assets/what-we-do-img3.png";
-import WhatWeDo4 from "./assets/what-we-do-img4.png";
-import WhatWeDo5 from "./assets/what-we-do-img5.png";
-import WhatWeDo6 from "./assets/what-we-do-img6.png";
+import WhatWeDo1 from "./assets/what-we-do-img1.jpg";
+import WhatWeDo2 from "./assets/what-we-do-img2.jpg";
+import WhatWeDo3 from "./assets/what-we-do-img3.jpg";
+import WhatWeDo4 from "./assets/what-we-do-img4.jpg";
+import WhatWeDo5 from "./assets/what-we-do-img5.jpg";
+import WhatWeDo6 from "./assets/what-we-do-img6.jpg";
 import SideDesign from "./assets/sideDesign.png";
 import BoxdesignA2 from "./assets/box-design-A2.png";
 import BoxdesignB2 from "./assets/box-design-B2.png";
@@ -302,11 +302,11 @@ export const getPrivacytems = (t) => [
     title: t("privacy.body.item1title"),
   },
   {
-    id: "#who",
+    id: "#data-administrator",
     title: t("privacy.body.item2title"),
   },
   {
-    id: "#data",
+    id: "#data-storage",
     title: t("privacy.body.item3title"),
   },
   {
@@ -314,15 +314,15 @@ export const getPrivacytems = (t) => [
     title: t("privacy.body.item4title"),
   },
   {
-    id: "#contact",
-    title: t("privacy.body.item5title"),
-  },
-  {
-    id: "#change",
+    id: "#change-of-policy",
     title: t("privacy.body.item6title"),
   },
   {
-    id: "#controller",
+    id: "#controller-contact",
     title: t("privacy.body.item7title"),
+  },
+  {
+    id: "#contact",
+    title: t("privacy.body.item5title"),
   },
 ];
