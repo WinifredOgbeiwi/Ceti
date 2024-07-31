@@ -59,7 +59,7 @@ const Content = ({ t }) => {
            
             <div id=" controller-contact" className="mt-6">
                 <h2 className=" font-raleway font-bold text-2xl">6. {t("privacy.body.item7title")}</h2>
-                <p className="text-base sm:text-lg text-secondary mt-2 ">{t("privacy.body.item7body")} <a href="mailto:office@ceti.com" className='font-medium'>office@ceti.com</a> <span >{t("privacy.body.item7bodybreak")}</span> </p>
+                <p className="text-base sm:text-lg text-secondary mt-2 ">{t("privacy.body.item7body")} <a href="mailto:office@cetigroup.pl" className='font-medium'>office@cetigroup.pl</a> <span >{t("privacy.body.item7bodybreak")}</span> </p>
             </div>
       
             <div id='contact' className="mt-6 ">
@@ -75,7 +75,7 @@ const Content = ({ t }) => {
                             <div className='bg-main min-w-[16px] min-h-[16px]'></div>
 
                             <h4 className='font-bold text-lg sm:text-xl text-secondary'>{t("privacy.body.item5sub.subitem2.heading")}</h4> </div>
-                        <p className='ml-7 mt-1 text-base sm:text-lg'>{t("privacy.body.item5sub.subitem2.paragraph")} <span className='underline text-main'><a href='mailto:office@ceti.com'>{t("privacy.body.item5sub.subitem2.link")} </a></span></p>
+                        <p className='ml-7 mt-1 text-base sm:text-lg'>{t("privacy.body.item5sub.subitem2.paragraph")} <span className='underline text-main'><a href='mailto:office@cetigroup.pl'>{t("privacy.body.item5sub.subitem2.link")} </a></span></p>
 
                     </div>
 

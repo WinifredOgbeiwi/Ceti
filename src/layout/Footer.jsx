@@ -30,14 +30,14 @@ const Footer = ({ t }) => {
 
             <div className='h-6 w-6 flex justify-center items-center bg-white rounded-full text-main'> <IoLocationOutline className='text-lg font-bold m-auto' /></div>
             
-            <a href="https://maps.app.goo.gl/SW25Tk5xnexrkujh9" className='hover text-sm sm:text-base not-italic'>   {t('commom.address')}</a>
+            <a href="https://maps.app.goo.gl/SW25Tk5xnexrkujh9" className='hover text-sm sm:text-base not-italic'>   {t('common.address')}</a>
            
           </address>
 
           <div className='flex gap-4 items-center'>
             <div className='h-6 w-6  flex justify-center items-center bg-white rounded-full text-main'> <MdOutlineMailOutline className='text-lg m-auto' /></div>
 
-            <p translate='no' className='hover text-sm sm:text-base'><a href="mailto:office@ceti.com">office@ceti.com</a></p>
+            <p translate='no' className='hover text-sm sm:text-base'><a href="mailto:office@cetigroup.pl">office@cetigroup.pl</a></p>
           </div>
 
         </div>

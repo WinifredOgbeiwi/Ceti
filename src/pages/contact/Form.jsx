@@ -9,7 +9,7 @@ const Form = ({ t }) => {
     })
     return (
         <section data-aos="fade-down" className=' mt-12 md:w-3/4'>
-            <form className='border-2 rounded border-[#9D9C9D] px-5 md:px-20 py-10'>
+            <form action="https://getform.io/f/bjjedyob" method="POST" className='border-2 rounded border-[#9D9C9D] px-5 md:px-20 py-10'>
 
                 <h3 className='text-lg sm:text-xl md:text-2xl  font-bold capitalize mb-5 '>{t("contact.body.form.title")}</h3>
                 <div className='w-full h-[2px] bg-[#D9D9DA]'></div>
@@ -30,7 +30,7 @@ const Form = ({ t }) => {
                     
                 </div>
                 <div className="hover bg-main px-10 py-4 mt-4 w-fit text-white font-bold rounded">
-                    <button>  {t("cta.contact")}</button>
+                    <button type='submit'>  {t("cta.contact")}</button>
                 </div>
             </form>
         </section>

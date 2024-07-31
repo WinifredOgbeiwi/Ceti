@@ -25,7 +25,7 @@ const Content = ({ t }) => {
 
             <div id='controller' className='border-b-2 pb-16 border-secondary mt-20'>
                 <h3 className=' text-black font-bold font-raleway text-xl sm:text-2xl mb-7 '>{t("regulation.body.controller.heading")}</h3>
-                <p className=' text-sm sm:text-base md:text-lg'>{t("regulation.body.controller.paragraph1")} <br />{t("common.name")} <br /><span>{t("common.address")}</span> <br /><a href="mailto:office@ceti.com">office@ceti.com</a></p>
+                <p className=' text-sm sm:text-base md:text-lg'>{t("regulation.body.controller.paragraph1")} <br />{t("common.name")} <br /><span>{t("common.address")}</span> <br /><a href="mailto:office@cetigroup.pl">office@cetigroup.pl</a></p>
 
             </div>
 
